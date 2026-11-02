@@ -1,0 +1,143 @@
+# 🏖️ Vrbo Scraper
+
+Vrbo Scraper is a **free and open-source** scraper that gets you **unlimited** detailed Vrbo vacation rental data for free.
+
+## ✨ What Can I Get?
+
+- 🏖️ **Full details on 2M+ vacation rentals** — description, amenities, house rules, host, photos, rating & exact location
+- 🔍 **Search any destination in 190+ countries** — live prices for your dates, 15 filters, map-point & map-area search
+- ⭐ **Every one of 19M+ guest reviews** — scores, stay details, host replies & category ratings
+- 📅 **Live prices & 2-year calendars** — day-by-day availability, nightly prices, minimum stays & stay quotes
+
+## 🏖️ Example: A Full Vrbo Rental
+
+```json
+{
+  "id": "363759ha",
+  "name": "Exclusive Oceanfront Cottage on Dry Sandy Carbon Beach - Seal",
+  "link": "https://www.vrbo.com/363759ha",
+  "property_type": "Apartment",
+  "description": "Ocean front cape cod on Malibu's best dry sandy beach with panoramic ocean views from every room. This beautiful beach is known as Carbon Beach or ...",
+  "capacity": { "sleeps": 4, "bedrooms": 1, "beds": 2 },
+  "rating": { "score": 9.6, "label": "Exceptional", "review_count": 266 },
+  "location": { "city": "Malibu", "region": "CA", "coordinates": { "latitude": 34.038245, "longitude": -118.673871 } },
+  "popular_amenities": ["Kitchen", "Washer", "Dryer", "Pet friendly", "Gym", "Outdoor Space"],
+  "house_rules": { "check_in_after": "3:00 PM", "check_out_before": "11:00 AM" },
+  "host": { "name": "Sandpiper 22860 LLC", "languages": ["English"], "is_premier_host": true },
+  "price": {
+    "checkin": "2027-06-14",
+    "checkout": "2027-06-18",
+    "nightly": 384.0,
+    "original_nightly": 422.0,
+    "total": 1538.0,
+    "currency": "USD",
+    "cancellation_policy": "Free cancellation before Mon, May 31"
+  },
+  "photos": [
+    { "link": "https://media.vrbo.com/lodging/34000000/33550000/33547800/33547759/w849h564x1y1-3b40e927.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill", "caption": "Enjoy the beautiful view of Carbon Beach & ocean" }
+  ]
+}
+```
+
+*Trimmed for readability.*
+
+## 🚀 Unlimited Free Vrbo Data — Get It in 60 Seconds
+
+1️⃣ Clone and install:
+```bash
+git clone https://github.com/omkarcloud/vrbo-scraper
+cd vrbo-scraper
+python -m pip install -r requirements.txt
+```
+
+2️⃣ Start the API:
+```bash
+python run.py
+```
+
+3️⃣ Get your first data:
+```bash
+curl "http://localhost:8000/properties/details?property=363759ha"
+```
+
+```json
+{
+  "id": "363759ha",
+  "expedia_id": "33547759",
+  "name": "Exclusive Oceanfront Cottage on Dry Sandy Carbon Beach - Seal",
+  "link": "https://www.vrbo.com/363759ha",
+  "property_type": "Apartment",
+  "capacity": { "sleeps": 4, "bedrooms": 1, "beds": null, "bathrooms": 1.0 },
+  "rating": { "score": 9.6, "max": 10, "label": "Exceptional", "review_count": 266 },
+  "location": {
+    "city": "Malibu",
+    "region": "CA",
+    "country_code": "USA",
+    "coordinates": { "latitude": 34.038245, "longitude": -118.673871 }
+  },
+  "popular_amenities": ["Kitchen", "Washer", "Dryer", "Pet friendly", "Gym", "Outdoor Space"],
+  "house_rules": { "check_in_after": "3:00 PM", "check_out_before": "11:00 AM" },
+  "host": { "name": "Sandpiper 22860 LLC", "languages": ["English"], "is_premier_host": true },
+  "default_price": { "nightly": 370.0, "total": 1111.0, "nights": 3, "currency": "USD" }
+}
+```
+
+All 7 endpoints are now live at `http://localhost:8000`.
+
+## 📚 Endpoints
+
+7 endpoints cover everything you need.
+
+| Endpoint | Path | Returns |
+|---|---|---|
+| Property Details | `/properties/details` | Everything about one rental in one call, plus the live stay price |
+| Location Autocomplete | `/locations/autocomplete` | Place names to Vrbo region IDs with types and coordinates |
+| Search Properties | `/properties/search` | 50 rentals per page with live prices; 15 filters, sortable |
+| Search Filters | `/properties/filters` | Every filter and sort for a destination, with live counts |
+| Property Reviews | `/properties/reviews` | Guest reviews with scores, stays and host replies, 50 per page |
+| Availability Calendar | `/properties/calendar` | Two years of daily availability, nightly prices and minimum stays |
+| Stay Price | `/properties/price` | Nightly rate, total, discount and cancellation policy for your dates |
+
+## 🔍 Exploring Parameters
+
+The same API is published on RapidAPI, and its playground is the easiest place to try parameters and see raw responses. Once a request looks right, run it locally for **unlimited free** data.
+
+1. [Subscribe to the free plan](https://rapidapi.com/OmkarCloud/api/best-vrbo-scraper-free-1000-calls/pricing) — 1,000 calls/month, no credit card.
+2. [Try the endpoints in the playground](https://rapidapi.com/OmkarCloud/api/best-vrbo-scraper-free-1000-calls/playground) — every param is pre-filled, so you see real data in one click.
+3. Copy the generated code and replace `https://best-vrbo-scraper-free-1000-calls.p.rapidapi.com` with `http://localhost:8000`. It will now run against your local API.
+
+```python
+import requests
+
+# generated by the playground, host swapped for the local API
+response = requests.get(
+    "http://localhost:8000/properties/search",
+    params={"location": "Malibu, California", "checkin": "2027-06-14", "checkout": "2027-06-18", "sort": "price_low_to_high"},
+)
+print(response.json())
+```
+
+## 💬 Have Questions? We Have Answers.
+
+You're a developer — we know how hard completing a project can be. So we offer full support: just message us and we'll reply ✅ with a solution within 1 working day.
+
+[![Message Us on WhatsApp about Vrbo Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918178804274&text=I%20need%20help%20using%20the%20Vrbo%20Scraper%20API.)
+
+[![Ask Us by Email about Vrbo Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=Help%20with%20Vrbo%20Scraper%20API&body=I%20need%20help%20using%20the%20Vrbo%20Scraper%20API.)
+
+## ⚡ Popular Scrapers by Omkar Cloud
+
+- [**Google Maps Scraper (3,100+ GitHub Stars)**](https://github.com/omkarcloud/google-maps-scraper) — type "dentists in New York", get every business as a ready-to-call lead list: phones, emails, websites & reviews. Up to 100K free leads/month.
+- [**G2 Scraper**](https://www.omkar.cloud/tools/g2-scraper) — G2 product details, ratings & AI-found contacts
+- [**Website Email Contact Scraper**](https://www.omkar.cloud/tools/website-email-contact-scraper) — emails, phones & socials from any website
+- [**AliExpress Scraper**](https://www.omkar.cloud/tools/aliexpress-scraper-api) — live product details, SKU variants, stock & shipping
+- [**Booking Scraper**](https://www.omkar.cloud/tools/booking-scraper) — Booking.com hotels: prices, ratings, rooms & amenities
+- [**Etsy Scraper**](https://www.omkar.cloud/tools/etsy-scraper) — Etsy products: prices, discounts, shops & variations
+
+## ⭐ Love It? [Star It ⭐!](https://github.com/omkarcloud/vrbo-scraper)
+
+Star the repo ⭐ and become my star hero!
+
+It's just 1 click, but it means the world to me.
+
+[![Star us on GitHub](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/star-us.png)](https://github.com/omkarcloud/vrbo-scraper)

@@ -1,0 +1,229 @@
+[
+ {
+  "data": null,
+  "errors": [
+   {
+    "message": "Exception while fetching data (/propertyInfo) : Invalid parameter [parameterName=propertyId, parameterValue=4193579ha, reason=Invalid PropertyId on propertyInfo query]",
+    "locations": [
+     {
+      "line": 1,
+      "column": 106
+     }
+    ],
+    "path": [
+     "propertyInfo"
+    ],
+    "extensions": {
+     "classification": "DataFetchingException",
+     "event": {
+      "escalation": "SERVICE",
+      "level": "WARN",
+      "message": "Invalid parameter [parameterName=propertyId, parameterValue=4193579ha, reason=Invalid PropertyId on propertyInfo query]",
+      "name": "InvalidParameterEvent",
+      "tags": {}
+     },
+     "service": "experience-api-lodging-property",
+     "code": "DOWNSTREAM_SERVICE_RETURNED_ERROR"
+    }
+   }
+  ],
+  "extensions": {
+   "trace": {
+    "Trace-ID": "302b7cc1-6047-434c-ae18-41f80ed5539f"
+   },
+   "analytics": [
+    {
+     "traceId": "302b7cc1-6047-434c-ae18-41f80ed5539f",
+     "creationTimestamp": 1793362207837,
+     "context": {
+      "pageIdentity": {
+       "lineOfBusiness": "H",
+       "pageIdentifier": "page.Hotels.Infosite.Information",
+       "funnelLocation": 20
+      },
+      "executeXdid": true,
+      "tealiumAccountDetailsPWA": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "beaconOffConfig": {
+       "settings": {
+        "adobeSuiteAccount": "expediaglobaluserdev",
+        "sendToAdobeClientSide": false,
+        "sendToAdobeServerSide": false,
+        "sendToS3": false,
+        "adobeSuiteUrl": "http://expedia.112.2o7.net/b/ss/expediaglobaluserdev/6"
+       },
+       "rulesMatched": "ALL_BEACON_OFF",
+       "bucketing": {
+        "experimentInstance": "",
+        "bucketValue": 2.0,
+        "experimentId": ""
+       },
+       "error": ""
+      },
+      "tealiumAccountDetails": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "entryPageView": false,
+      "beaconEnabled": true,
+      "newVisit": false
+     },
+     "tealiumUtagData": {
+      "lineOfBusiness": "hotels",
+      "siteCountryCode": "US",
+      "tpid": 9001,
+      "pageInfo": {
+       "lineOfBusiness": "hotels",
+       "requestURL": "http://www.vrbo.com/graphql",
+       "funnelLocation": "SEARCH_RESULTS",
+       "currency": "USD",
+       "language": "en",
+       "pageName": "page.Hotels.Infosite.Information",
+       "xLineOfBusiness": "HOTEL"
+      },
+      "tc_vars": {
+       "privacy_gdpr_consent": true,
+       "identifiers_session_id": "143313f7-c283-37da-90ce-d553b740fdcf",
+       "point_of_sale_eg_pos_id": "VRBO_US",
+       "marketing_sslt_attributed_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "language": "en",
+       "search_request_gaia_id": "Unknown",
+       "point_of_sale_eg_brand_name": "vrbo",
+       "device_information_device_type": "DESKTOP",
+       "identifiers_tpid": 9001,
+       "timestamps_received_at": "2026-10-30T12:10:07.823278626Z",
+       "identifiers_site_id": 9001001,
+       "error_description": "Invalid parameter [parameterName=propertyId, parameterValue=4193579ha, reason=Invalid PropertyId on propertyInfo query]",
+       "host": "www.vrbo.com",
+       "point_of_sale": "Unknown",
+       "is_native_app": false,
+       "is_uis_prime_sourced": true,
+       "is_EU_POS": false,
+       "event_page_name_detailed": "page.Hotels.Infosite.Information",
+       "default_domain": "www.vrbo.com",
+       "point_of_sale_site_currency_code": "USD",
+       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+       "privacy_ccpa_consent": true,
+       "identifiers_device_user_agent_id": "6b70c1df-6a00-6a41-46dd-32fb7a91cd7c",
+       "marketing_sslt_attributed_platform_entryId": "d892c7d7-0e47-4edc-831b-d0c033f68e0b",
+       "isNativeOneCKO": false,
+       "point_of_sale_locale": "US",
+       "identifiers_event_trace_id": "302b7cc16047434cae1841f80ed5539f",
+       "event_page_funnel_location": "SEARCH_RESULTS",
+       "referrer_url_encoded": "https%3A%2F%2Fwww.vrbo.com%2F2165911",
+       "booking_product_line": "H",
+       "marketing_same_session_marketing_code": "direct",
+       "marketing_latest_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "event_page_product_line": "HOTEL",
+       "request_request_url": "http://www.vrbo.com/graphql",
+       "environment": "prod",
+       "line_of_business": "hotels",
+       "is_native_app_onecheckout": false,
+       "event_page_name": "page.Hotels.Infosite.Information",
+       "domain": "HOTEL",
+       "marketing_latest_platform_entry_id": "d892c7d7-0e47-4edc-831b-d0c033f68e0b",
+       "error_code": "InvalidParameterEvent",
+       "referrer_url": "https://www.vrbo.com/2165911"
+      },
+      "siteName": "www.vrbo.com",
+      "language": "en",
+      "locale": "en_US",
+      "pageName": "page.Hotels.Infosite.Information",
+      "xLineOfBusiness": "HOTEL",
+      "Geo": {
+       "country": "US",
+       "city": "BILOXI",
+       "latitude": 30.5095,
+       "state": "MS",
+       "longitude": -88.9735
+      },
+      "eapid": 1,
+      "domain": "HOTEL",
+      "funnelLocation": "SEARCH_RESULTS",
+      "context": {
+       "traceId": "302b7cc16047434cae1841f80ed5539f",
+       "site": {
+        "companyCode": "10140",
+        "tpid": 9001,
+        "eapid": 1,
+        "brandId": "vrbo",
+        "siteId": 9001001,
+        "siteName": "www.vrbo.com",
+        "jurisdictionCode": "USA",
+        "managementUnitCode": "6610",
+        "defaultCountry": "US"
+       },
+       "privacyContext": {
+        "canTrack": true,
+        "canSell": true,
+        "optInPrivacySelection": {
+         "yesSelected": false,
+         "isSet": false
+        },
+        "dataProtectionGuideline": "GDPR"
+       },
+       "requestId": "302b7cc1-6047-434c-ae18-41f80ed5539f",
+       "hopScotchSessionId": "143313f7-c283-37da-90ce-d553b740fdcf",
+       "clientInfo": {
+        "deviceCharacteristics": {
+         "brandName": "Chrome",
+         "deviceOs": "Mac OS X",
+         "mobileBrowserVersion": "150",
+         "resolutionHeight": 800,
+         "mobile": false,
+         "deviceOsVersion": "10.15",
+         "mobileBrowser": "Chrome",
+         "physicalScreenHeight": 175,
+         "modelName": "150",
+         "tablet": false,
+         "resolutionWidth": 1280,
+         "wirelessDevice": false,
+         "physicalScreenWidth": 280
+        },
+        "os": "Mac OS X",
+        "ipAddress": "107.223.153.***",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "requestMadeByBot": true,
+        "coords": {
+         "country": "US",
+         "city": "BILOXI",
+         "latitude": 30.5095,
+         "state": "MS",
+         "longitude": -88.9735
+        }
+       },
+       "sessionId": "143313f7-c283-37da-90ce-d553b740fdcf",
+       "user": {
+        "guid": "6b70c1df-6a00-6a41-46dd-32fb7a91cd7c"
+       }
+      },
+      "siteId": 9001001,
+      "guid": "6b70c1df-6a00-6a41-46dd-32fb7a91cd7c",
+      "tc_context": {
+       "tcContainerUrl": "https://cdn.tagcommander.com/6035/tc_vrbo_prod.js",
+       "enabled": true
+      },
+      "brand": "vrbo",
+      "currencyCode": "USD",
+      "entity": {
+       "checkout": {
+        "errors": [
+         {
+          "eventDescription": "Invalid parameter [parameterName=propertyId, parameterValue=4193579ha, reason=Invalid PropertyId on propertyInfo query]",
+          "errorCode": "InvalidParameterEvent"
+         }
+        ]
+       }
+      },
+      "lobDomain": "HOTEL"
+     },
+     "version": "9.3.0",
+     "applicationName": "experience-api-lodging-property"
+    }
+   ]
+  }
+ }
+]

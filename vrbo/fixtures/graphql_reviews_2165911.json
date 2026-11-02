@@ -1,0 +1,2381 @@
+[
+ {
+  "data": {
+   "propertyInfo": {
+    "id": "63066336",
+    "reviewInfo": {
+     "summary": {
+      "totalCount": {
+       "raw": 41.0,
+       "formatted": "41"
+      },
+      "averageOverallRating": {
+       "raw": 9.800000190734863,
+       "formatted": "9.8"
+      },
+      "superlative": "Exceptional",
+      "paginateAction": null,
+      "reviewSummaryDetails": [
+       {
+        "label": "Cleanliness",
+        "ratingPercentage": 100,
+        "formattedRatingOutOfMax": "10/10"
+       },
+       {
+        "label": "Check-in",
+        "ratingPercentage": 100,
+        "formattedRatingOutOfMax": "10/10"
+       },
+       {
+        "label": "Communication",
+        "ratingPercentage": 100,
+        "formattedRatingOutOfMax": "10/10"
+       },
+       {
+        "label": "Location",
+        "ratingPercentage": 100,
+        "formattedRatingOutOfMax": "10/10"
+       },
+       {
+        "label": "Listing accuracy",
+        "ratingPercentage": 100,
+        "formattedRatingOutOfMax": "10/10"
+       }
+      ],
+      "propertyReviewCountDetails": {
+       "shortDescription": "See all 41 reviews"
+      }
+     },
+     "reviews": [
+      {
+       "id": "6a989c44a12238562c13799f",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Wonderful property, great location and amenities, the host David was a pleasure and very accommodating",
+       "submissionTimeLocalized": "Sep 2, 2026",
+       "stayDuration": "Stayed 4 nights in Aug 2026",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Avery B."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6a7803a638d3874d973834fb",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "We had an absolutely wonderful stay in Turks & Caicos! The house was beautiful with an amazing pool that made relaxing at the house almost as enjoyable as being at the beach. The location was perfect, and the breeze made the outdoor spaces especially enjoyable. We even saw turtles and a beautiful nurse shark in the canal, thanks to the paddle boards they provided. Our host was incredibly responsive, helpful, and attentive throughout our stay. Everything was thoughtfully arranged and made our vacation feel effortless.We couldn\u2019t have asked for a better place to stay and would absolutely return. Highly recommend!",
+       "submissionTimeLocalized": "Aug 9, 2026",
+       "stayDuration": "Stayed 7 nights in Aug 2026",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Nicole V."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6a55707d08832008dee16d1d",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "",
+       "submissionTimeLocalized": "Jul 13, 2026",
+       "stayDuration": "Stayed 4 nights in Jun 2026",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Jennifer H."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": null,
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6a38498cfd18c350eeaf4f8d",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Great house, great location!  Everything was exactly what was in the listing.  Kids had a blast exploring the canals.  The house is a short 5-7  minute easy car ride into the heart of grace bay-  location was perfect!",
+       "submissionTimeLocalized": "Jun 21, 2026",
+       "stayDuration": "Stayed 8 nights in Jun 2026",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Justin S."
+       },
+       "managementResponses": [
+        {
+         "id": "30f1de76-5c4a-4e4f-9da3-70bf6d4f2872",
+         "header": {
+          "text": "Response from VrboOwner on Jun 23, 2026"
+         },
+         "response": "Thank you Justin and family for making the most of Villa Puccolo Ponte, we love that yoy explored the canals too! "
+        }
+       ],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "69d9ce885c9bc60e9934c7f4",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "My family loved it here. We used the paddleboards on the canal, saw some turtles. Kitchen stocked with whatever you need to cook. We were a little worried about no air in the main area, but honestly it was no problem with the cross breeze and the AC in the bedrooms works really well. Good location by the marina and not a far drive from Grace Bay.",
+       "submissionTimeLocalized": "Apr 11, 2026",
+       "stayDuration": "Stayed 6 nights in Mar 2026",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "A E."
+       },
+       "managementResponses": [],
+       "photos": [
+        {
+         "url": "https://a.travel-assets.com/ugc/hotel-reviews/f04088a0-b8a1-40ec-b183-ecfb311dc545-1775878150413.jpg?impolicy=resizecrop&rw=204&ra=fit&q=high",
+         "description": ""
+        }
+       ],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "698345987d56b02e831524c5",
+       "superlative": "Good",
+       "locale": "en_US",
+       "title": "",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Nice house, nice host, great location.  The only negative was the furnishings weren\u2019t what you\u2019d think for a house this nice.  Beds, mattresses etc were cheap rentals I\u2019m pretty sure so not very comfortable.  Some spa issues but they did send someone out within a few days. ",
+       "submissionTimeLocalized": "Feb 4, 2026",
+       "stayDuration": "Stayed 4 nights in Jan 2026",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "8 out of 10 Good",
+        "value": "8/10 Good"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Bob B."
+       },
+       "managementResponses": [
+        {
+         "id": "c5147c99-64d9-4a9c-9507-edb76a155510",
+         "header": {
+          "text": "Response from VrboOwner on Mar 29, 2026"
+         },
+         "response": "We are sorry to hear the mattress was uncomfortable for you and we've taken action on it already, and have swapped it for a much firmer one. The spa does have issues from time to time but always fixed quickly. There is a new timer on it now. All working great. Thanks!"
+        }
+       ],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "68ac7b8fad6ffd10b92211a8",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "We had an absolutely amazing time at Piccolo Ponte.  The house and pool were perfect.  The location was great as it was easy to get to everything we wanted to do.  And we used the paddle boards on the canal, swam in the pool and just sat out back enjoying the beautiful view.   Staying at this property helped make our visit to Turks and Caicos unforgettable!  ",
+       "submissionTimeLocalized": "Aug 25, 2025",
+       "stayDuration": "Stayed 5 nights in Aug 2025",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Kari D."
+       },
+       "managementResponses": [
+        {
+         "id": "888e85b0-db67-4122-905f-d1debf0fbcbb",
+         "header": {
+          "text": "Response from VrboOwner on Sep 30, 2025"
+         },
+         "response": "Thank you Kari - we are so happy to read how you enjoyed your stay. We look forward to welcoming you back."
+        }
+       ],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "68557c7742d00a79db4f5028",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Our stay at Piccolo Ponte was amazing.  The house is beautiful and spacious.  The host is so gracious and responsive.  The kitchen has a lot of extras you don't find in a lot of rentals.  The SUP's were great to use, the pool and hot tub were wonderful, the bikes were great.  The location is fabulous, there is just nothing but positive things to say about this property.",
+       "submissionTimeLocalized": "Jun 18, 2025",
+       "stayDuration": "Stayed 7 nights in Jun 2025",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Karen M."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "683a8c0cc72c7e00a4347f17",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Perfect Getaway",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "House was beautiful, pool area stunning\u2026everything was exactly as depicted online. Very safe neighborhood. Kitchen well stocked with essentials, spices, soap, laundry detergent, etc. The canal was quiet and super fun for swimming and watching the turtles and boats go by. Looking forward to staying here again!",
+       "submissionTimeLocalized": "May 31, 2025",
+       "stayDuration": "Stayed 7 nights in May 2025",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Beth T."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "67f54a7c644ec37b0837d9a7",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Wonderful stay!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "We really enjoyed our stay at Piccolo Pointe.  The property was amazing and everything was top notch.  Any issues were immediately tended to, which we really appreciated. This property is well located and beautiful.",
+       "submissionTimeLocalized": "Apr 8, 2025",
+       "stayDuration": "Stayed 7 nights in Mar 2025",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Stephanie H."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "67e0993251f11160947204b6",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Beautiful home in an ideal location.",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "My husband and I stayed here for four weeks with my sister and her husband. My brother-in-law and I were both working most days and the house was big enough for us to each have our own work space while not hampering the fun of the non-workers. The house has incredible indoor/outdoor feel and the living space flows onto the pool deck. There is ample shade throughout the day and there are outdoor fans that keep the air under the overhang circulating well. The canal is easily accessible for swimming and paddling. We plan to return and might rent kayaks or bring inflatable ones.Leeward is close to everything and very safe. We have stayed in three different houses in Leeward and this is our favorite! ",
+       "submissionTimeLocalized": "Mar 23, 2025",
+       "stayDuration": "Stayed 28 nights in Feb 2025",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Pamela R."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "676f3757f143bc006f40ea2c",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Architecturally best VRBO ever!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Amazing set up for 6 adults. Three en suites and a poolside half bath. Bedroom AC is perfect and with the help of a small fan kept the bathroom cool as well. It does get warm in the kitchen and living area but opening up early morning really helps. Had to close up at night for security. Beware of slippery poolside tile when wet. A crate of towels is provided and were essential to traversing the deck after rain or pool play. Kitchen is over the top stocked not just dishes and utensils but all modern appliances (including panini maker)! There is an amazing brand new Weber grill poolside which we loved using for steaks and local fish. Moonrise over the canal was spectacular. We made use of the paddle boards and snorkeled right off the dock. This is a truly wonderful house equally for chillaxing or adventuring. Was welcomed by Claire on our arrival with a very informative tour. Nice way to learn all the bells and whistles. Jacinthe, the property manager met our every need. Responsiveness and accommodation was top notch. On an island where daily necessities are exorbitantly expensive, there was enough paper towels, toilet paper, dish soap, laundry detergent etc for all six adults for 9 days - an unexpected luxury. One of our most perfect vacations happened right here. Highly recommend to all.",
+       "submissionTimeLocalized": "Dec 27, 2024",
+       "stayDuration": "Stayed 8 nights in Dec 2024",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Jamie D."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "66c91ecdbb84033b9db38518",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Perfect Location with a Tranquil Atmosphere",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "We had an incredible stay! The location was absolutely perfect, offering a serene and quiet area that was just what we needed. The pool was a fantastic feature, and we loved starting our mornings with coffee on the dock\u2014such a peaceful way to begin the day. While the lack of AC in the main areas was a minor drawback, it didn't detract from our overall enjoyment. ",
+       "submissionTimeLocalized": "Aug 23, 2024",
+       "stayDuration": "Stayed 9 nights in Aug 2024",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Deana S."
+       },
+       "managementResponses": [
+        {
+         "id": "dabc9210-48b1-4c7d-a7e6-a8b37d84f87e",
+         "header": {
+          "text": "Response from VrboOwner on Sep 16, 2024"
+         },
+         "response": "Thank you Deana, it was a pleasure having you here and we look forward to hosting you again!"
+        }
+       ],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6606231eb3417f79a243fadd",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Lovely",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "This was our 4th visit to the island and first time staying in Leeward. We wanted a different experience by staying on the canal & wanted to explore a new location. The house was perfect! Hot tub was such a nice perk at night. We loved the bikes, paddle boards, floats and beach chairs. The house has beautiful high ceilings and a stocked kitchen. We did need bug spray around pool at night & did utilized the screens to keep mosquitoes out. Mornings we enjoyed watching the boats go by. Host was very responsive. It was hard to leave, hope to be back!",
+       "submissionTimeLocalized": "Mar 29, 2024",
+       "stayDuration": "Stayed 7 nights in Mar 2024",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Ashley E."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "65caf04c665a096251c1bedb",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Beautiful property- great trip!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "The house is wonderful and the location was perfect for our group of friends. Everything was as described. The location is perfect, easy walk or drive to everything. We would definitely stay here again! Thanks for a memorable vacation.",
+       "submissionTimeLocalized": "Feb 13, 2024",
+       "stayDuration": "Stayed 7 nights in Jan 2024",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Lisa N."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "65c6b9e2eaadbd0b5f1a8e3c",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "We\u2019ll be back!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Beautiful home with an enchanting poolside guest house. Great location on the canal. Super clean and private. Didn\u2019t want to leave.",
+       "submissionTimeLocalized": "Feb 9, 2024",
+       "stayDuration": "Stayed 5 nights in Feb 2024",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Charlotte P."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "65b884340b618c2a8230ce53",
+       "superlative": "Good",
+       "locale": "en_US",
+       "title": "Winter getaway",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Great communication with a couple of problems that came up. Clean and well stocked property. Wonderful trip",
+       "submissionTimeLocalized": "Jan 30, 2024",
+       "stayDuration": "Stayed 5 nights in Jan 2024",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "8 out of 10 Good",
+        "value": "8/10 Good"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Rachel C."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "65a5e87123e1203c556029b6",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Fabulous, Well-Appointed Villa on the Canals",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Our family of 5 (3 young adult children) stayed at the Villa and had a lovely time. The house is beautifully appointed with lots of amenities. Our daughter had the charming pool house all to her self and our two sons shared a bedroom. We had a comfortable and elegant master suite. The hot tub and pool added to the elevated ambiance along with the loungers, outdoor dining set and bar area. Being right on the canal, we took advantage of the house's paddle boards to see turtles when paddling around the canals. We also used the bikes to cruise around the Leeward settlement. The villa is an easy drive to many excellent restaurants and beautiful beaches. It is also is close to an IGA grocery store. But to be honest, everything is within an easy drive and once we got the hang of driving on the left with lots of roundabouts, we were fine. The house is also super close to the marina where the ferry to North and Middle Caicos, which was a trip highlight. We are also SCUBA divers, and the marina (a different one than the ferry), where we went out of on the dive boat was only 12 minutes away by car. Our two hosts, Jacinthe and Claire, were extremely attentive and helpful with the booking and check-in process. We felt very welcome - thank you for the welcome goody basket! Would love to come back.",
+       "submissionTimeLocalized": "Jan 16, 2024",
+       "stayDuration": "Stayed 7 nights in Jan 2024",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Tamara Z."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "64a63fc59f734411a753ead6",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Beautiful villa in a great location",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Beautifully located in the Leeward Settlement, this villa is spacious and bright, and includes all the amenities needed to enjoy the vacation. For us it was the perfect setting. In the morning we adults would enjoy paddle boarding along the canal while our teenagers would sleep in or enjoy the pool. The kitchen has everything needed so we could enjoy breakfast and lunch by the pool. In the afternoon we visited different beautiful beaches, all between 5 and 20 minutes drive. The location is very exclusive, yet close to restaurants, a supermarket and stores (10 minutes drive). \nThe air conditioning in the bedrooms is perfect to refresh the rooms before nighttime and the several indoor and outdoor fans help with the heat during the day. The pool area is equipped with beach chairs, snorkeling gear and toys to use. 2 bikes are included and those were great to reach the Marina where there is a caf\u00e8 that serves breakfast and lunch. We would definitely recommend Piccolo Ponte!",
+       "submissionTimeLocalized": "Jul 6, 2023",
+       "stayDuration": "Stayed 8 nights in Jun 2023",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Simone G."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "1",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "64978f56bc56411de6d0f01a",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Piccolo Stay",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Excellent house with all the amenities, clean, spacious, and great location. Great to work with owner and staff. Very nice and quiet neighborhood. The house has access to the canal which is great for snorkling, paddle boarding, or just going for a swim. Beautiful water.",
+       "submissionTimeLocalized": "Jun 25, 2023",
+       "stayDuration": "Stayed 7 nights in Jun 2023",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Juan P."
+       },
+       "managementResponses": [
+        {
+         "id": "bdd16af2-6440-45db-b8fa-12ab10349a09",
+         "header": {
+          "text": "Response from VrboOwner on Jul 5, 2023"
+         },
+         "response": "Thank you so much for your stay Juan - it was lovely to have you here and meet you. Best wishes."
+        }
+       ],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "2",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6480c2c7fa29975e390be1c0",
+       "superlative": "Okay",
+       "locale": "en_US",
+       "title": "Great Experience",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "We are a family of 5 with two girls and one boy so the rooms worked out perfectly! The house is beautiful and is on a beautiful canal with lots of turtles and fish swimming around. The pool was a lifesaver for us because we heard that the high temps and humidity were not the norm for this time of year. The humidity was almost unbearable if you aren\u2019t used to it. The only downfall to the house was that it didn\u2019t have air conditioning in the main rooms of the house, only in the bedrooms, so we tended to want to be in our separate rooms if we weren\u2019t out and about or in the pool. Other than that one negative, the house is perfect! It\u2019s very clean and plenty of necessities for cooking and such. I would definitely recommend this property but maybe in the winter months rather than the heat of the summer!",
+       "submissionTimeLocalized": "Jun 7, 2023",
+       "stayDuration": "Stayed 10 nights in May 2023",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "6 out of 10 Okay",
+        "value": "6/10 Okay"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Lindsay M."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "2",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6465689c55e92176fa930301",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "This Home Has Everything!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Our group consisted of 3 couples and we came up for both work and fun. This place really has it all. The pictures posted were accurate, but really, once you were on the property and in the house, it was even better. Jacinthe helped with everything from pre-stocking the kitchen to referral for places to eat, a private chef and mid week housekeeping. TCI can be a bit warm in the day (the mornings and evenings were very nice), but the fans in the common areas worked fairly well and the AC in the bedrooms were way beyond adequate. The kitchen was so well stocked with everything and anything you could need. I think even our private chef was somewhat impressed. The wifi was excellent. At any given time, six laptops and six cell phone were connected with no issues. The home itself is beautiful as is the surrounding landscape. The pool area was shaded in the the afternoon and very refreshing. There were bikes, SUPs, snorkel gear and plenty of pool and beach gear. The location was great too. We rented a car (recommended) and you could access Grace Bay area in less than ten minutes. There is a beautiful beach that you can walk to (maybe 10-15 minutes) that felt almost secluded (Pelican Beach). But if you want, a bike ride is less than 5 minutes or just drive with your group and park near the access trail in the same amount of time. The location seemed very safe and the house can lock up nicely at night. It has an alarm system and a safe, but we didn't feel the need to use either. Everything was self-sufficient and well cared for. Jacinthe and her assistant were extremely nice to work with. In short, this property is a perfect way to enjoy TCI and everything it has to offer.",
+       "submissionTimeLocalized": "May 17, 2023",
+       "stayDuration": "Stayed 5 nights in May 2023",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Jon S."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "1",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6460d4af3a9bcc64313fe1ae",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Amazing private villa",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "The pictures just don\u2019t do this Villa justice. Well maintained and stocked with all the basic necessities. Very private and secluded but yet a short drive to restaurants and shops. Loved the guesthouse where my granddaughter and husband stayed (kind of a second honeymoon). Claire and Jacinthe were very helpful and quick to respond to any of our needs or questions. Would definitely stay there again.",
+       "submissionTimeLocalized": "May 14, 2023",
+       "stayDuration": "Stayed 7 nights in May 2023",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "David W."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "1",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "643b1f9fc82d497f3a081026",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Nice place, thank you",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "We enjoyed the house. Thank you!",
+       "submissionTimeLocalized": "Apr 15, 2023",
+       "stayDuration": "Stayed 7 nights in Apr 2023",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "josh s."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6418ae9a45dd51595e8f5466",
+       "superlative": "Good",
+       "locale": "en_US",
+       "title": "Great Time at Picolo Ponte",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Great location, close to beaches, shopping and restaurants in Grace Bay.",
+       "submissionTimeLocalized": "Mar 20, 2023",
+       "stayDuration": "Stayed 7 nights in Mar 2023",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "8 out of 10 Good",
+        "value": "8/10 Good"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Verified traveler"
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "63fa6d8c97d0546c714dfdab",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Great first visit to T&C",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "This was our first time visiting Turks & Caicos and this property made our stay wonderful! From early on communication with the owner was great. She answered all our questions and was very responsive to any request we had. The house it self is located in a great area. Close to a lot of amenities and easy to access beaches, grocery stores, shops and restaurants. The house had everything we needed and was very comfortable for our family of five. The pool area is great and being on the canal added a fun experience exploring it. Would definitely book this house again!",
+       "submissionTimeLocalized": "Feb 25, 2023",
+       "stayDuration": "Stayed 6 nights in Feb 2023",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "jason H."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "639fa52045c62b6ce4b49115",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "We did not want to leave!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "We had a great stay at Piccolo Ponte. The house was beautiful, comfortable and clean. We used the beach chairs, paddle boards and swam in the pool. It was a great location. Communication was great with the owner and property manager. We had a great stay.",
+       "submissionTimeLocalized": "Dec 18, 2022",
+       "stayDuration": "Stayed 7 nights in Dec 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Lisa A."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "1",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6397852ce68563026c49d091",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Loved Piccolo Ponte",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "The house was very clean and comfortable. Being on the canal made for great turtle watching and fun paddle boarding with the provided boards. great location within a quiet neighborhood.\nWill definitely stay again. pool and hot tub were great. easy walk to the beach.",
+       "submissionTimeLocalized": "Dec 12, 2022",
+       "stayDuration": "Stayed 7 nights in Dec 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Lisa T."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "1",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "637a7dca894bad07682e6298",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "This was the perfect stay!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "I\u2019m so glad we stumbled upon this villa for our friend vacation. There were three of us so the three separate suites were perfect, but the villa is well-suited for a family or three couples traveling together, too.\n\nEverything is well-stocked so we didn\u2019t need anything for our stay beyond a few basic groceries. The location in leeward is quiet and peaceful, while just being five minutes by car from Grace Bay and so many great restaurants. We took the paddleboard out on the canal and saw turtles and rays, but mostly we spent our days in the pool, which is straight-up dreamy. The house comes equipped with beach chairs and various pool/beach toys and tools, which was a nice added bonus. \n\nAbsolutely would stay here again and more than likely will in the very near future \u2764\ufe0f",
+       "submissionTimeLocalized": "Nov 20, 2022",
+       "stayDuration": "Stayed 5 nights in Nov 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Kristin L."
+       },
+       "managementResponses": [
+        {
+         "id": "17b24a0d-bd84-42a4-9179-4d82b49e5667",
+         "header": {
+          "text": "Response from VrboOwner on Nov 24, 2022"
+         },
+         "response": "Thank you so much Kristin - it was lovely to host your group and we look forward to welcoming you here again."
+        }
+       ],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6374ed19189ad529c0fcb980",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Even better than the pictures",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Everything was wonderful. The property is gorgeous and clean in a age neighborhood. The views and the fresh breezes coming in through the doors, overlooking the canals is breathtaking. I loved cooking in fne kitchen each morning and having breakfast by the pool. The hot tub is now heated and felt fabulous. Jacinthe was an excellent hostess. 5 stars!",
+       "submissionTimeLocalized": "Nov 16, 2022",
+       "stayDuration": "Stayed 5 nights in Nov 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Jodi B."
+       },
+       "managementResponses": [
+        {
+         "id": "7bf10dcd-2bdd-4903-b2f7-f1421a7ce085",
+         "header": {
+          "text": "Response from VrboOwner on Nov 17, 2022"
+         },
+         "response": "Thank you Jodi! It was great to host your family and we are so glad you enjoyed our house. Looking forward to hosting you in the future."
+        }
+       ],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6363ed82e792f211afc9a197",
+       "superlative": "Excellent",
+       "locale": "en_GB",
+       "title": "Love the Island and love the house",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "It gave us everything we wanted so we could enjoy the weather, beaches and food. We had a fantastic holiday here and would happily return",
+       "submissionTimeLocalized": "Nov 3, 2022",
+       "stayDuration": "Stayed 11 nights in Oct 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Andy P."
+       },
+       "managementResponses": [
+        {
+         "id": "d2ac2452-c48a-448d-a672-7202b776cfcd",
+         "header": {
+          "text": "Response from VrboOwner on Nov 10, 2022"
+         },
+         "response": "Thank you Andy! Glad you enjoyed the house and the island. We'll look forward to welcoming you here again in the future."
+        }
+       ],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "62eece7be28c624327c09893",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Great Family Vacay!!!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "I will start by saying that our family vacation was GREAT!!! Communication with Jacinthe was excellent since the beginning!! We were welcome with a tour in the house and recommendations by Claire who was also excellent. The house it\u2019s in a great and secure community. The house is just like the pictures!!! Equipped with everything. We all enjoyed the terrace, pool, canal was soooo relaxing with nice breeze and clear that could see the bottom. We loved the paddle boarding in the afternoons, we saw sea turtles, small sharks and lots of fishes. Restaurants, groceries and shopping stores are like 5-10 minutes away in the car. AC worked good on the rooms. House has also screens that bugs don\u2019t go inside. All beaches were turquoise color and no waves. Overall just AWESOME!!!",
+       "submissionTimeLocalized": "Aug 6, 2022",
+       "stayDuration": "Stayed 7 nights in Jul 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "mahe C."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "62dc6866323ec460350422b5",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Well located, great house with a fantastic pool!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Our family of 4 including 2 teens stayed at Piccolo Ponte for a week and really liked the house. The house was as advertised and the photos were accurrate. We enjoyed the pool and swimming in the canal as well as well as waking up every morning to that view.\n\nThe house is well located in a safe, gated community with a small market close by, but you do need to rent a car. The grocery stores and restaurants were a short drive away, but we grilled at house several nights.\n\nThe property manager was communicative and took care of any small issues that come up.\n\nWe would recommend Piccolo Ponte to anyone looking for a nice Villa in Turks & Caicos!",
+       "submissionTimeLocalized": "Jul 23, 2022",
+       "stayDuration": "Stayed 7 nights in Jul 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Brendan C."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "62c2329bb0a9ef00cb6d66dd",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Amazing",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "This property is beautiful.. From the moment we walked it it was amazing. The pictures are exactly as the listing shows. The kitchen was well equipped with all essential necessities. The pool was refreshing and plenty big for my family of 4. We enjoyed the canal and SUP. A lot of turtles and the sunrises are beautiful. The bedrooms/bathrooms are spacious, comfortable, and the guest house was perfect for my 17 year old son. The house was very clean and inviting. Jacinthe was a great host as she recommended a lot of nice restaurants. I would definitely recommend Coco Bistro and Cocovan for dinners. Jacinthe also stocked the house with plenty of toiletries and household items I thought we would need to buy but didn\u2019t have to. She had snorkel and beach items to use. The worst part was having to leave such a wonderful place. The rooms do have individual AC and plenty of ceiling fans help to circulate the air. Would recommend this house to rent. Pelican beach is also close by which is a secluded beach that is great to snorkel.",
+       "submissionTimeLocalized": "Jul 4, 2022",
+       "stayDuration": "Stayed 9 nights in Jun 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Carrie M."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "62991f18316ea93783525d52",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Great Home and Hosts",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "The place was a great place to stay. The pool was nice and had to sun most of the day. The dock was nice to hang out at and swimming in the canal is encouraged. Each of the rooms had a comfortable mattress and sheets. The A/C in all the rooms worked great and the bathrooms were nice and worked out perfect (great long-time hot running water). We hired a chef one night and we highly recommend that. We also highly recommend the pre-stocking if you plan extended time at the villa (be specific as possible but they did a great job). Only downfalls were that there was no A/C in the common areas so really you spend most of your time outside or in your room, the fridge struggles to stay cold since it is a warmer climate and not A/C (suggest getting a lot of ice but beware it can melt in the freezer), and your obvious Caribbean bugs which is not the owners' fault as they took measures to eliminate bugs but just bring spray. We would reccomend to others.",
+       "submissionTimeLocalized": "Jun 2, 2022",
+       "stayDuration": "Stayed 6 nights in May 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Braxton P."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6256dc75aea6e0511a65e606",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Beautiful First Trip to TCI",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "We had a wonderful trip to Villa Piccolo Ponte. The neighborhood was quiet, clean and safe and easy to access everything we needed (restaurants, groceries, trips from the local marina) with the bikes or our rental car. The canals in the backyard was great for standup paddle boarding and we saw a sea turtle most days while enjoying morning coffee.\n\nThe house itself was perfect. Good wifi, cold air conditioning in the bedrooms, calm beachy d\u00e9cor. It was also very private feeling due to the landscaping and property size even though there are neighbor villas on both sides. We cooked breakfast in the villa every day, packed lunches to bring to the beach, and went out for most dinners (reserve ahead!). We used the paddle boards every day. \n\nYou come to TCI for the beaches (or maybe the bonefishing) and the location doesn't disappoint. Sunset beach is the closest and it is quiet and beautiful. You could walk (towards grace bay) for MILES...or just pack up the provided beach chairs and cooler and take the 5 min drive down to Grace Bay Beach (which we did twice in a week). \n\nGreat value home for being on-the-water and in a higher-end neighborhood. Ticked all our boxes.",
+       "submissionTimeLocalized": "Apr 13, 2022",
+       "stayDuration": "Stayed 7 nights in Mar 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Michael R."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "620dc5f3057d8d0b8ccc38fa",
+       "superlative": "Good",
+       "locale": "en_US",
+       "title": "Honeymoon Retreat",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "We booked this venue to spend time with my sister in law and her husband on their honeymoon. Great place to share, but still have separate spaces. Jacinthe was very helpful and accommodating, sharing tips for beach locations and activities. The only down fall was the midges. We had been warned, but nothing we did kept them at bay. Just come prepared with bug spray and make sure to close doors/windows :)",
+       "submissionTimeLocalized": "Feb 16, 2022",
+       "stayDuration": "Stayed 28 nights in Jan 2022",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "8 out of 10 Good",
+        "value": "8/10 Good"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Carla D."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "61d65455ae2de658c5849f2e",
+       "superlative": "Excellent",
+       "locale": "en_CA",
+       "title": "Great Place",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Fantastic property, the owner Jacinthe is very helpful, well equipped, great location, we would stay there again",
+       "submissionTimeLocalized": "Jan 5, 2022",
+       "stayDuration": "Stayed 7 nights in Dec 2021",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "ASc+GlgAAACqAQICAHhRqf5uyCh4rhrpAEcd0Lr3O2ECPWffSl2fK29sG1pXlAHJ+uprmYgsEQOX4jdLoTc1AAAAcDBuBgkqhkiG9w0BBwagYTBfAgEAMFoGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMuBqVB0Ejx1Kf8HlXAgEQgC1vo2f6OcG86QT8510rJbcDoqX/P8lFz/74ey0IR7wexO71nYuIr4R81UfeMwncpnYf6Z2gzlyvwAfNCFcOfU3z40Kfd+bFv9ew2z+tdg A."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "61106901dc3ad278fff36909",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Beautiful",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "Great location to everything, pictures were spot on. Must see to believe",
+       "submissionTimeLocalized": "Aug 8, 2021",
+       "stayDuration": "Stayed 8 nights in Jul 2021",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "marvin r."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "60d0ecddd1cb720845811290",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Family Friendly and Beautiful!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "From the moment we walked in we knew we had picked the right house and location. Everything was bright, beautiful and super clean. Although we loved having the pool, all five of us couldn't get enough of the SUP's. With the canal right there the kiddos (teenagers 14, 16, 18) were able to go up and down the canal as often as they wanted and saw several turtles each time. We even managed to go to the Mangroves on our own and do some exploring. If you do so I would recommend doing a guided kayak or paddle board tour first. Side note: We recommend the Clear Kayak tour. Best excursion of our stay! The guides are experts on the boat pass through that you need to cross to get the Mangroves and really explained how we needed to navigate the currents. Also we saw baby nurse sharks, turtles, a spotted ray, jelly fish, several species of birds and fed the Iguanas.\nThere is a beach about 3-5 min from the house called Pelican Beach, some of the best sunsets, beautiful water and super quiet. \nOur host, Jacinthe was amazing to work with. From before we even arrived to the end of our stay she was very prompt in answering any and all of our questions. I would highly recommend this place and if we are fortunate enough to go back to TCI in the future we would stay at Villa Piccolo Ponte again.",
+       "submissionTimeLocalized": "Jun 21, 2021",
+       "stayDuration": "Stayed 7 nights in Jun 2021",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Jamie L."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      },
+      {
+       "id": "6057997a9ec04766498c813b",
+       "superlative": "Excellent",
+       "locale": "en_US",
+       "title": "Absolutely loved our time here!",
+       "brandType": null,
+       "disclaimer": "Verified review",
+       "text": "This home is wonderful in so many ways! We loved it and would have extended our stay if possible. Everything is top notch, from comfortable beds and luxurious bedding, to high end kitchenware. Cooking in this kitchen was a breeze with none of the \"rental quality\" cooking items often found in vacation rentals. Also having the pool and canal to play is was a highlight of our trip. The owner has put a lot of thought into making this home a comfortable and welcoming place to stay and the property manager is fantasic. We would love to come back in the futue.",
+       "submissionTimeLocalized": "Mar 29, 2021",
+       "stayDuration": "Stayed 30 nights in Feb 2021",
+       "travelers": [],
+       "reviewScoreWithDescription": {
+        "label": "10 out of 10 Excellent",
+        "value": "10/10 Excellent"
+       },
+       "reviewAuthorAttribution": {
+        "text": "Rachel C."
+       },
+       "managementResponses": [],
+       "photos": [],
+       "themes": [
+        {
+         "label": "Liked: Cleanliness, check-in, communication, location, listing accuracy"
+        }
+       ],
+       "reviewInteractionSections": [
+        {
+         "primaryDisplayString": "0",
+         "reviewInteractionType": "HELPFUL_REVIEW"
+        },
+        {
+         "primaryDisplayString": null,
+         "reviewInteractionType": "REVIEW_REPORT_FLAG"
+        },
+        {
+         "primaryDisplayString": "See more",
+         "reviewInteractionType": "REVIEW_EXPAND_LABEL"
+        },
+        {
+         "primaryDisplayString": "See less",
+         "reviewInteractionType": "REVIEW_COLLAPSE_LABEL"
+        }
+       ],
+       "propertyReviewSource": null,
+       "translationInfo": null
+      }
+     ],
+     "sortAndFilter": {
+      "sortAndFilter": [
+       {
+        "name": "sortBy",
+        "label": "Sort by",
+        "options": [
+         {
+          "label": "Highest guest rating",
+          "optionValue": "HIGHEST_TO_LOWEST_RATED",
+          "isSelected": false
+         },
+         {
+          "label": "Lowest guest rating",
+          "optionValue": "LOWEST_TO_HIGHEST_RATED",
+          "isSelected": false
+         },
+         {
+          "label": "Most recent",
+          "optionValue": "NEWEST_TO_OLDEST",
+          "isSelected": true
+         },
+         {
+          "label": "Most relevant",
+          "optionValue": "NEWEST_TO_OLDEST_BY_LANGUAGE",
+          "isSelected": false
+         }
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  "extensions": {
+   "analytics": [
+    {
+     "traceId": "8a1e3993-ff46-4c59-8b06-7efa95c26fa5",
+     "creationTimestamp": 1793362319946,
+     "context": {
+      "pageIdentity": {
+       "lineOfBusiness": "H",
+       "pageIdentifier": "page.Hotels.Infosite.Information",
+       "funnelLocation": 20
+      },
+      "executeXdid": true,
+      "tealiumAccountDetailsPWA": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "beaconOffConfig": {
+       "settings": {
+        "adobeSuiteAccount": "expediaglobaluserdev",
+        "sendToAdobeClientSide": false,
+        "sendToAdobeServerSide": false,
+        "sendToS3": false,
+        "adobeSuiteUrl": "http://expedia.112.2o7.net/b/ss/expediaglobaluserdev/6"
+       },
+       "rulesMatched": "ALL_BEACON_OFF",
+       "bucketing": {
+        "experimentInstance": "",
+        "bucketValue": 2.0,
+        "experimentId": ""
+       },
+       "error": ""
+      },
+      "tealiumAccountDetails": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "entryPageView": false,
+      "beaconEnabled": true,
+      "newVisit": false
+     },
+     "tealiumUtagData": {
+      "lineOfBusiness": "hotels",
+      "siteCountryCode": "US",
+      "tpid": 9001,
+      "pageInfo": {
+       "lineOfBusiness": "hotels",
+       "requestURL": "http://www.vrbo.com/graphql",
+       "funnelLocation": "SEARCH_RESULTS",
+       "currency": "USD",
+       "language": "en",
+       "pageName": "page.Hotels.Infosite.Information",
+       "xLineOfBusiness": "HOTEL"
+      },
+      "tc_vars": {
+       "privacy_gdpr_consent": true,
+       "identifiers_session_id": "bd468d47-0c69-34cc-b25a-5475ce42d916",
+       "point_of_sale_eg_pos_id": "VRBO_US",
+       "marketing_sslt_attributed_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "language": "en",
+       "search_request_gaia_id": "Unknown",
+       "point_of_sale_eg_brand_name": "vrbo",
+       "device_information_device_type": "DESKTOP",
+       "identifiers_tpid": 9001,
+       "timestamps_received_at": "2026-10-30T12:11:59.929965521Z",
+       "identifiers_site_id": 9001001,
+       "host": "www.vrbo.com",
+       "point_of_sale": "Unknown",
+       "is_native_app": false,
+       "is_uis_prime_sourced": true,
+       "is_EU_POS": false,
+       "event_page_name_detailed": "page.Hotels.Infosite.Information",
+       "default_domain": "www.vrbo.com",
+       "point_of_sale_site_currency_code": "USD",
+       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+       "privacy_ccpa_consent": true,
+       "identifiers_device_user_agent_id": "dcaad155-5e7c-5fa3-738f-bad482acab40",
+       "marketing_sslt_attributed_platform_entryId": "f4bbcded-8664-4a64-9f8c-ad377592c19d",
+       "isNativeOneCKO": false,
+       "point_of_sale_locale": "US",
+       "identifiers_event_trace_id": "8a1e3993ff464c598b067efa95c26fa5",
+       "event_page_funnel_location": "SEARCH_RESULTS",
+       "referrer_url_encoded": "https%3A%2F%2Fwww.vrbo.com%2F2165911",
+       "booking_product_line": "H",
+       "marketing_same_session_marketing_code": "direct",
+       "marketing_latest_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "event_page_product_line": "HOTEL",
+       "request_request_url": "http://www.vrbo.com/graphql",
+       "environment": "prod",
+       "line_of_business": "hotels",
+       "is_native_app_onecheckout": false,
+       "event_page_name": "page.Hotels.Infosite.Information",
+       "domain": "HOTEL",
+       "marketing_latest_platform_entry_id": "f4bbcded-8664-4a64-9f8c-ad377592c19d",
+       "referrer_url": "https://www.vrbo.com/2165911"
+      },
+      "siteName": "www.vrbo.com",
+      "language": "en",
+      "locale": "en_US",
+      "pageName": "page.Hotels.Infosite.Information",
+      "xLineOfBusiness": "HOTEL",
+      "Geo": {
+       "country": "US",
+       "city": "BILOXI",
+       "latitude": 30.5095,
+       "state": "MS",
+       "longitude": -88.9735
+      },
+      "eapid": 1,
+      "domain": "HOTEL",
+      "funnelLocation": "SEARCH_RESULTS",
+      "context": {
+       "traceId": "8a1e3993ff464c598b067efa95c26fa5",
+       "site": {
+        "companyCode": "10140",
+        "tpid": 9001,
+        "eapid": 1,
+        "brandId": "vrbo",
+        "siteId": 9001001,
+        "siteName": "www.vrbo.com",
+        "jurisdictionCode": "USA",
+        "managementUnitCode": "6610",
+        "defaultCountry": "US"
+       },
+       "privacyContext": {
+        "canTrack": true,
+        "canSell": true,
+        "optInPrivacySelection": {
+         "yesSelected": false,
+         "isSet": false
+        },
+        "dataProtectionGuideline": "GDPR"
+       },
+       "requestId": "8a1e3993-ff46-4c59-8b06-7efa95c26fa5",
+       "hopScotchSessionId": "bd468d47-0c69-34cc-b25a-5475ce42d916",
+       "clientInfo": {
+        "deviceCharacteristics": {
+         "brandName": "Chrome",
+         "deviceOs": "Mac OS X",
+         "mobileBrowserVersion": "150",
+         "resolutionHeight": 800,
+         "mobile": false,
+         "deviceOsVersion": "10.15",
+         "mobileBrowser": "Chrome",
+         "physicalScreenHeight": 175,
+         "modelName": "150",
+         "tablet": false,
+         "resolutionWidth": 1280,
+         "wirelessDevice": false,
+         "physicalScreenWidth": 280
+        },
+        "os": "Mac OS X",
+        "ipAddress": "107.223.153.***",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "requestMadeByBot": true,
+        "coords": {
+         "country": "US",
+         "city": "BILOXI",
+         "latitude": 30.5095,
+         "state": "MS",
+         "longitude": -88.9735
+        }
+       },
+       "sessionId": "bd468d47-0c69-34cc-b25a-5475ce42d916",
+       "user": {
+        "guid": "dcaad155-5e7c-5fa3-738f-bad482acab40"
+       }
+      },
+      "siteId": 9001001,
+      "guid": "dcaad155-5e7c-5fa3-738f-bad482acab40",
+      "tc_context": {
+       "tcContainerUrl": "https://cdn.tagcommander.com/6035/tc_vrbo_prod.js",
+       "enabled": true
+      },
+      "brand": "vrbo",
+      "currencyCode": "USD",
+      "lobDomain": "HOTEL"
+     },
+     "version": "9.3.0",
+     "applicationName": "experience-api-lodging-property"
+    },
+    {
+     "traceId": "8a1e3993-ff46-4c59-8b06-7efa95c26fa5",
+     "creationTimestamp": 1793362320047,
+     "context": {
+      "pageIdentity": {
+       "lineOfBusiness": "H",
+       "pageIdentifier": "page.Hotels.Infosite.Information",
+       "funnelLocation": 20
+      },
+      "executeXdid": true,
+      "tealiumAccountDetailsPWA": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "beaconOffConfig": {
+       "settings": {
+        "adobeSuiteAccount": "expediaglobaluserdev",
+        "sendToAdobeClientSide": false,
+        "sendToAdobeServerSide": false,
+        "sendToS3": false,
+        "adobeSuiteUrl": "http://expedia.112.2o7.net/b/ss/expediaglobaluserdev/6"
+       },
+       "rulesMatched": "ALL_BEACON_OFF",
+       "bucketing": {
+        "experimentInstance": "",
+        "bucketValue": 2,
+        "experimentId": ""
+       },
+       "error": ""
+      },
+      "tealiumAccountDetails": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "entryPageView": false,
+      "beaconEnabled": true,
+      "newVisit": false
+     },
+     "tealiumUtagData": {
+      "lineOfBusiness": "hotels",
+      "siteCountryCode": "US",
+      "tpid": 9001,
+      "pageInfo": {
+       "lineOfBusiness": "hotels",
+       "requestURL": "http://www.vrbo.com/graphql",
+       "funnelLocation": "SEARCH_RESULTS",
+       "currency": "USD",
+       "language": "en",
+       "pageName": "page.Hotels.Infosite.Information",
+       "xLineOfBusiness": "HOTEL"
+      },
+      "tc_vars": {
+       "identifiers_session_id": "bd468d47-0c69-34cc-b25a-5475ce42d916",
+       "point_of_sale_eg_pos_id": "VRBO_US",
+       "language": "en",
+       "search_request_gaia_id": "Unknown",
+       "point_of_sale_eg_brand_name": "vrbo",
+       "device_information_device_type": "DESKTOP",
+       "identifiers_tpid": 9001,
+       "timestamps_received_at": "2026-10-30T12:11:59.959166626Z",
+       "identifiers_site_id": 9001001,
+       "host": "www.vrbo.com",
+       "point_of_sale": "Unknown",
+       "is_native_app": false,
+       "is_uis_prime_sourced": true,
+       "is_EU_POS": false,
+       "event_page_name_detailed": "page.Hotels.Infosite.Information",
+       "default_domain": "www.vrbo.com",
+       "point_of_sale_site_currency_code": "USD",
+       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+       "identifiers_device_user_agent_id": "dcaad155-5e7c-5fa3-738f-bad482acab40",
+       "isNativeOneCKO": false,
+       "point_of_sale_locale": "US",
+       "identifiers_event_trace_id": "8a1e3993ff464c598b067efa95c26fa5",
+       "event_page_funnel_location": "SEARCH_RESULTS",
+       "referrer_url_encoded": "https%3A%2F%2Fwww.vrbo.com%2F2165911",
+       "booking_product_line": "H",
+       "event_page_product_line": "HOTEL",
+       "request_request_url": "http://www.vrbo.com/graphql",
+       "environment": "prod",
+       "line_of_business": "hotels",
+       "is_native_app_onecheckout": false,
+       "event_page_name": "page.Hotels.Infosite.Information",
+       "domain": "HOTEL",
+       "referrer_url": "https://www.vrbo.com/2165911"
+      },
+      "siteName": "www.vrbo.com",
+      "language": "en",
+      "locale": "en_US",
+      "pageName": "page.Hotels.Infosite.Information",
+      "xLineOfBusiness": "HOTEL",
+      "Geo": {
+       "country": "US",
+       "city": "BILOXI",
+       "latitude": 30.5095,
+       "state": "MS",
+       "longitude": -88.9735
+      },
+      "eapid": 1,
+      "domain": "HOTEL",
+      "funnelLocation": "SEARCH_RESULTS",
+      "context": {
+       "traceId": "8a1e3993ff464c598b067efa95c26fa5",
+       "site": {
+        "companyCode": "10140",
+        "tpid": 9001,
+        "eapid": 1,
+        "brandId": "vrbo",
+        "siteId": 9001001,
+        "siteName": "www.vrbo.com",
+        "jurisdictionCode": "USA",
+        "managementUnitCode": "6610",
+        "defaultCountry": "US"
+       },
+       "requestId": "8a1e3993-ff46-4c59-8b06-7efa95c26fa5",
+       "hopScotchSessionId": "bd468d47-0c69-34cc-b25a-5475ce42d916",
+       "clientInfo": {
+        "deviceCharacteristics": {
+         "brandName": "Chrome",
+         "deviceOs": "Mac OS X",
+         "mobileBrowserVersion": "150",
+         "resolutionHeight": 800,
+         "mobile": false,
+         "deviceOsVersion": "10.15",
+         "mobileBrowser": "Chrome",
+         "physicalScreenHeight": 175,
+         "modelName": "150",
+         "tablet": false,
+         "resolutionWidth": 1280,
+         "wirelessDevice": false,
+         "physicalScreenWidth": 280
+        },
+        "os": "Mac OS X",
+        "ipAddress": "107.223.153.***",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "requestMadeByBot": true,
+        "coords": {
+         "country": "US",
+         "city": "BILOXI",
+         "latitude": 30.5095,
+         "state": "MS",
+         "longitude": -88.9735
+        }
+       },
+       "sessionId": "bd468d47-0c69-34cc-b25a-5475ce42d916",
+       "user": {
+        "guid": "dcaad155-5e7c-5fa3-738f-bad482acab40"
+       }
+      },
+      "siteId": 9001001,
+      "guid": "dcaad155-5e7c-5fa3-738f-bad482acab40",
+      "tc_context": {
+       "tcContainerUrl": "https://cdn.tagcommander.com/6035/tc_vrbo_prod.js",
+       "enabled": true
+      },
+      "brand": "vrbo",
+      "currencyCode": "USD",
+      "lobDomain": "HOTEL"
+     },
+     "version": "9.1.6",
+     "applicationName": "experience-api-lodging-reviews"
+    }
+   ],
+   "trace": {
+    "Trace-ID": "8a1e3993-ff46-4c59-8b06-7efa95c26fa5"
+   }
+  }
+ }
+]

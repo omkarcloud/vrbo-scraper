@@ -1,0 +1,1232 @@
+[
+ {
+  "data": {
+   "propertySearch": {
+    "summary": {
+     "matchedPropertiesSize": 5,
+     "resultsHeading": "Search results showing 5 properties in Miami, Florida, United States of America. December 4, 2026 through December 8, 2026|Google map showing 5 properties"
+    },
+    "pagination": null,
+    "criteria": {
+     "primary": {
+      "destination": {
+       "regionId": "2297",
+       "regionName": "Miami, Florida, United States of America"
+      },
+      "dateRange": {
+       "checkInDate": {
+        "day": 4,
+        "month": 12,
+        "year": 2026
+       },
+       "checkOutDate": {
+        "day": 8,
+        "month": 12,
+        "year": 2026
+       }
+      },
+      "rooms": [
+       {
+        "adults": 2,
+        "children": [
+         {
+          "age": 5
+         },
+         {
+          "age": 9
+         }
+        ]
+       }
+      ]
+     },
+     "secondary": {
+      "selections": [
+       {
+        "id": "sort",
+        "value": "PRICE_LOW_TO_HIGH"
+       },
+       {
+        "id": "privacyTrackingState",
+        "value": "CAN_NOT_TRACK"
+       },
+       {
+        "id": "theme",
+        "value": ""
+       },
+       {
+        "id": "userIntent",
+        "value": ""
+       },
+       {
+        "id": "house_rules_group",
+        "value": "pets_allowed"
+       },
+       {
+        "id": "amenities_facilities_group",
+        "value": "pool"
+       },
+       {
+        "id": "property_type_group",
+        "value": "house"
+       },
+       {
+        "id": "property_reviews_group",
+        "value": "4_stars"
+       },
+       {
+        "id": "bedroom_count_gt",
+        "value": "2"
+       }
+      ],
+      "ranges": [
+       {
+        "id": "nightly_price",
+        "min": 100,
+        "max": 400
+       }
+      ],
+      "counts": [
+       {
+        "id": "resultsStartingIndex",
+        "value": 0
+       },
+       {
+        "id": "resultsSize",
+        "value": 5
+       }
+      ],
+      "booleans": [
+       {
+        "id": "vipOnly",
+        "value": false
+       },
+       {
+        "id": "showVacationRentalsOnly",
+        "value": true
+       }
+      ]
+     }
+    },
+    "propertySearchListings": [
+     {
+      "__typename": "LodgingCard",
+      "id": "117152389",
+      "headingSection": {
+       "heading": "CowboyPool, MiniGolf, Arcade, Firepit, PingPong! Hallandale Beach Gem",
+       "messages": [
+        {
+         "text": "3\u00a0bedrooms \u00b7\u00a05 beds \u00b7\u00a0Private pool \u00b7\u00a0Dog-friendly \u00b7\u00a0Patio"
+        },
+        {
+         "text": "Pay $0 today \u00b7\u00a0Free\u00a0cancellation\u00a0until\u00a0Nov\u00a020 \u00b7\u00a0Hallandale Beach, 15.3 mi from Miami"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": {
+         "graphic": {
+          "text": "10"
+         },
+         "title": {
+          "shoppingProductTitle": {
+           "text": "Exceptional \u00b7\u00a04 reviews"
+          }
+         }
+        }
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$328"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "$1,311 for 4 nights",
+            "state": "BREAKOUT_TYPE_SECONDARY_PRICE"
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": "BREAKOUT_TYPE_FEES_CLARIFY"
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$328"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $328 per night Dec 4 - Dec 8"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "per night"
+         },
+         {
+          "value": "Dec 4 - Dec 8"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/4625357?chkin=2026-12-04&chkout=2026-12-08&d1=2026-12-04&d2=2026-12-08&startDate=2026-12-04&endDate=2026-12-08&x_pwa=1&rfrr=HSR&pwa_ts=1793362359073&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&children=1_5%2C1_9&regionId=2297&destination=Miami%2C+Florida%2C+United+States+of+America&destType=MARKET&latLong=25.77178%2C-80.19009&nightly_price=100&nightly_price=400&amenities_facilities_group=pool&property_type_group=house&house_rules_group=pets_allowed&property_reviews_group=4_stars&bedroom_count_gt=2&sort=PRICE_LOW_TO_HIGH&top_dp=328&top_cur=USD&userIntent=&selectedRoomType=117152389&selectedRatePlan=0004074e7b4df91c408c9d331199b524e7d1&expediaPropertyId=117152389"
+       }
+      },
+      "mediaSection": {
+       "badges": null,
+       "gallery": {
+        "media": [
+         {
+          "id": "744558",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/118000000/117160000/117152400/117152389/3e50b120.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of CowboyPool, MiniGolf, Arcade, Firepit, PingPong! Hallandale Beach Gem"
+          }
+         },
+         {
+          "id": "883829",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/118000000/117160000/117152400/117152389/84009b1e.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of CowboyPool, MiniGolf, Arcade, Firepit, PingPong! Hallandale Beach Gem"
+          }
+         },
+         {
+          "id": "696245",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/118000000/117160000/117152400/117152389/ebab548e.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of CowboyPool, MiniGolf, Arcade, Firepit, PingPong! Hallandale Beach Gem"
+          }
+         },
+         {
+          "id": "625969",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/118000000/117160000/117152400/117152389/94d5930d.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of CowboyPool, MiniGolf, Arcade, Firepit, PingPong! Hallandale Beach Gem"
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "__typename": "LodgingCard",
+      "id": "31963447",
+      "headingSection": {
+       "heading": "Grey Manor \u2013 Spacious 3BR/2BA Hallandale Home, Heated Pool & Smart Amenities",
+       "messages": [
+        {
+         "text": "3\u00a0bedrooms \u00b7\u00a04 beds \u00b7\u00a0Private pool \u00b7\u00a0Balcony/patio \u00b7\u00a0Barbecue grill"
+        },
+        {
+         "text": "Pay $0 today \u00b7\u00a0Free\u00a0cancellation\u00a0until\u00a0Nov\u00a020 \u00b7\u00a0Hallandale Beach, 14.7 mi from Miami"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": {
+         "graphic": {
+          "text": "9.6"
+         },
+         "title": {
+          "shoppingProductTitle": {
+           "text": "Exceptional \u00b7\u00a094 reviews"
+          }
+         }
+        }
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$336"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "$1,344 for 4 nights",
+            "state": "BREAKOUT_TYPE_SECONDARY_PRICE"
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": "BREAKOUT_TYPE_FEES_CLARIFY"
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$336"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $336 per night Dec 4 - Dec 8"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "per night"
+         },
+         {
+          "value": "Dec 4 - Dec 8"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/7435723ha?chkin=2026-12-04&chkout=2026-12-08&d1=2026-12-04&d2=2026-12-08&startDate=2026-12-04&endDate=2026-12-08&x_pwa=1&rfrr=HSR&pwa_ts=1793362359078&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&children=1_5%2C1_9&regionId=2297&destination=Miami%2C+Florida%2C+United+States+of+America&destType=MARKET&latLong=25.77178%2C-80.19009&nightly_price=100&nightly_price=400&amenities_facilities_group=pool&property_type_group=house&house_rules_group=pets_allowed&property_reviews_group=4_stars&bedroom_count_gt=2&sort=PRICE_LOW_TO_HIGH&top_dp=336&top_cur=USD&userIntent=&selectedRoomType=31963447&selectedRatePlan=0000a17db21b1d834dba85c23b49e1efb6b5&expediaPropertyId=31963447"
+       }
+      },
+      "mediaSection": {
+       "badges": {
+        "primaryBadge": {
+         "text": "Premier Host"
+        },
+        "secondaryBadge": null,
+        "tertiaryBadge": null
+       },
+       "gallery": {
+        "media": [
+         {
+          "id": "95693",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/32000000/31970000/31963500/31963447/b13f0f95.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Grey Manor \u2013 Spacious 3BR/2BA Hallandale Home, Heated Pool & Smart Amenities"
+          }
+         },
+         {
+          "id": "455173",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/32000000/31970000/31963500/31963447/2c67b6f8.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Grey Manor \u2013 Spacious 3BR/2BA Hallandale Home, Heated Pool & Smart Amenities"
+          }
+         },
+         {
+          "id": "919955",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/32000000/31970000/31963500/31963447/cd99ffd2.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Grey Manor \u2013 Spacious 3BR/2BA Hallandale Home, Heated Pool & Smart Amenities"
+          }
+         },
+         {
+          "id": "45051",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/32000000/31970000/31963500/31963447/42d7b0c1.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Grey Manor \u2013 Spacious 3BR/2BA Hallandale Home, Heated Pool & Smart Amenities"
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "__typename": "LodgingCard",
+      "id": "88696947",
+      "headingSection": {
+       "heading": "Cozy Oasis Pool Home-1 Min from Baptist Hospital",
+       "messages": [
+        {
+         "text": "3\u00a0bedrooms \u00b7\u00a04 beds \u00b7\u00a0Private pool \u00b7\u00a0AC \u00b7\u00a0Barbecue grill"
+        },
+        {
+         "text": "Miami, 17.4 mi from Miami"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": {
+         "graphic": {
+          "text": "8.4"
+         },
+         "title": {
+          "shoppingProductTitle": {
+           "text": "Very Good \u00b7\u00a06 reviews"
+          }
+         }
+        }
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$390"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "$1,560 for 4 nights",
+            "state": "BREAKOUT_TYPE_SECONDARY_PRICE"
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": "BREAKOUT_TYPE_FEES_CLARIFY"
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$390"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $390 per night Dec 4 - Dec 8"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "per night"
+         },
+         {
+          "value": "Dec 4 - Dec 8"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/3089109?chkin=2026-12-04&chkout=2026-12-08&d1=2026-12-04&d2=2026-12-08&startDate=2026-12-04&endDate=2026-12-08&x_pwa=1&rfrr=HSR&pwa_ts=1793362359080&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&children=1_5%2C1_9&regionId=2297&destination=Miami%2C+Florida%2C+United+States+of+America&destType=MARKET&neighborhoodId=553248635975876129&latLong=25.77178%2C-80.19009&nightly_price=100&nightly_price=400&amenities_facilities_group=pool&property_type_group=house&house_rules_group=pets_allowed&property_reviews_group=4_stars&bedroom_count_gt=2&sort=PRICE_LOW_TO_HIGH&top_dp=390&top_cur=USD&userIntent=&selectedRoomType=88696947&selectedRatePlan=0004bb137e00bc4b4d2abd17ade0c800241b&expediaPropertyId=88696947"
+       }
+      },
+      "mediaSection": {
+       "badges": null,
+       "gallery": {
+        "media": [
+         {
+          "id": "41478",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/89000000/88700000/88697000/88696947/a06dc562.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Cozy Oasis Pool Home-1 Min from Baptist Hospital"
+          }
+         },
+         {
+          "id": "334037",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/89000000/88700000/88697000/88696947/9f7b2233.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Cozy Oasis Pool Home-1 Min from Baptist Hospital"
+          }
+         },
+         {
+          "id": "401143",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/89000000/88700000/88697000/88696947/902b2688.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Cozy Oasis Pool Home-1 Min from Baptist Hospital"
+          }
+         },
+         {
+          "id": "243387",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/89000000/88700000/88697000/88696947/4900412d.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Cozy Oasis Pool Home-1 Min from Baptist Hospital"
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "__typename": "LodgingCard",
+      "id": "88678807",
+      "headingSection": {
+       "heading": "Elegant beautiful house w/pool 10 min from Miami Int. Airport",
+       "messages": [
+        {
+         "text": "2\u00a0bedrooms \u00b7\u00a02 beds \u00b7\u00a0Private pool \u00b7\u00a0Toys \u00b7\u00a0Patio"
+        },
+        {
+         "text": "Pay $0 today \u00b7\u00a0Free\u00a0cancellation\u00a0until\u00a0Nov\u00a020 \u00b7\u00a0Hialeah, 8.5 mi from Miami"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": {
+         "graphic": {
+          "text": "10"
+         },
+         "title": {
+          "shoppingProductTitle": {
+           "text": "Exceptional \u00b7\u00a040 reviews"
+          }
+         }
+        }
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$395"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "$1,581 for 4 nights",
+            "state": "BREAKOUT_TYPE_SECONDARY_PRICE"
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": "BREAKOUT_TYPE_FEES_CLARIFY"
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$395"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $395 per night Dec 4 - Dec 8"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "per night"
+         },
+         {
+          "value": "Dec 4 - Dec 8"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/3087969?chkin=2026-12-04&chkout=2026-12-08&d1=2026-12-04&d2=2026-12-08&startDate=2026-12-04&endDate=2026-12-08&x_pwa=1&rfrr=HSR&pwa_ts=1793362359082&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&children=1_5%2C1_9&regionId=2297&destination=Miami%2C+Florida%2C+United+States+of+America&destType=MARKET&latLong=25.77178%2C-80.19009&nightly_price=100&nightly_price=400&amenities_facilities_group=pool&property_type_group=house&house_rules_group=pets_allowed&property_reviews_group=4_stars&bedroom_count_gt=2&sort=PRICE_LOW_TO_HIGH&top_dp=395&top_cur=USD&userIntent=&selectedRoomType=88678807&selectedRatePlan=0004376e4e2d7afb4c38973654b65bee1c86&expediaPropertyId=88678807"
+       }
+      },
+      "mediaSection": {
+       "badges": {
+        "primaryBadge": {
+         "text": "Loved by Guests"
+        },
+        "secondaryBadge": null,
+        "tertiaryBadge": null
+       },
+       "gallery": {
+        "media": [
+         {
+          "id": "634727",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/89000000/88680000/88678900/88678807/f43dc17f.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Elegant beautiful house w/pool 10 min from Miami Int. Airport"
+          }
+         },
+         {
+          "id": "761450",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/89000000/88680000/88678900/88678807/fc02f4a1.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Elegant beautiful house w/pool 10 min from Miami Int. Airport"
+          }
+         },
+         {
+          "id": "603247",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/89000000/88680000/88678900/88678807/d4d15504.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Elegant beautiful house w/pool 10 min from Miami Int. Airport"
+          }
+         },
+         {
+          "id": "875500",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/89000000/88680000/88678900/88678807/ee79d056.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Elegant beautiful house w/pool 10 min from Miami Int. Airport"
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "__typename": "LodgingCard",
+      "id": "122229754",
+      "headingSection": {
+       "heading": "West Miami Luxury Home with Pool",
+       "messages": [
+        {
+         "text": "4\u00a0bedrooms \u00b7\u00a06 beds \u00b7\u00a0Private pool \u00b7\u00a0Game room \u00b7\u00a0Dog-friendly"
+        },
+        {
+         "text": "Free\u00a0cancellation\u00a0until\u00a0Nov\u00a04 \u00b7\u00a0Miami, 18.8 mi from Miami"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": {
+         "graphic": {
+          "text": "9.6"
+         },
+         "title": {
+          "shoppingProductTitle": {
+           "text": "Exceptional \u00b7\u00a07 reviews"
+          }
+         }
+        }
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$399"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "$1,596 for 4 nights",
+            "state": "BREAKOUT_TYPE_SECONDARY_PRICE"
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": "BREAKOUT_TYPE_FEES_CLARIFY"
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$399"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $399 per night Dec 4 - Dec 8"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "per night"
+         },
+         {
+          "value": "Dec 4 - Dec 8"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/4922183?chkin=2026-12-04&chkout=2026-12-08&d1=2026-12-04&d2=2026-12-08&startDate=2026-12-04&endDate=2026-12-08&x_pwa=1&rfrr=HSR&pwa_ts=1793362359083&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&children=1_5%2C1_9&regionId=2297&destination=Miami%2C+Florida%2C+United+States+of+America&destType=MARKET&neighborhoodId=553248635975848802&latLong=25.77178%2C-80.19009&nightly_price=100&nightly_price=400&amenities_facilities_group=pool&property_type_group=house&house_rules_group=pets_allowed&property_reviews_group=4_stars&bedroom_count_gt=2&sort=PRICE_LOW_TO_HIGH&top_dp=399&top_cur=USD&userIntent=&selectedRoomType=122229754&selectedRatePlan=000449f1dc822b734bef82577334167f571e&expediaPropertyId=122229754"
+       }
+      },
+      "mediaSection": {
+       "badges": {
+        "primaryBadge": {
+         "text": "Premier Host"
+        },
+        "secondaryBadge": null,
+        "tertiaryBadge": null
+       },
+       "gallery": {
+        "media": [
+         {
+          "id": "809629",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/123000000/122230000/122229800/122229754/e51d0864.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of West Miami Luxury Home with Pool"
+          }
+         },
+         {
+          "id": "491672",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/123000000/122230000/122229800/122229754/b805a88a.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of West Miami Luxury Home with Pool"
+          }
+         },
+         {
+          "id": "706558",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/123000000/122230000/122229800/122229754/w1581h1062x0y2-fba4543d.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of West Miami Luxury Home with Pool"
+          }
+         },
+         {
+          "id": "999048",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/123000000/122230000/122229800/122229754/9e142826.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of West Miami Luxury Home with Pool"
+          }
+         }
+        ]
+       }
+      }
+     }
+    ],
+    "dynamicMap": {
+     "map": {
+      "markers": [
+       {
+        "id": "117152389",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$328",
+        "name": "CowboyPool, MiniGolf, Arcade, Firepit, PingPong! Hallandale Beach Gem",
+        "qualifiers": [
+         "vacation_rental",
+         "supplemental"
+        ],
+        "markerPosition": {
+         "latitude": 25.989039,
+         "longitude": -80.138867
+        }
+       },
+       {
+        "id": "31963447",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$336",
+        "name": "Grey Manor \u2013 Spacious 3BR/2BA Hallandale Home, Heated Pool & Smart Amenities",
+        "qualifiers": [
+         "vacation_rental",
+         "supplemental"
+        ],
+        "markerPosition": {
+         "latitude": 25.981202,
+         "longitude": -80.148379
+        }
+       },
+       {
+        "id": "88696947",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$390",
+        "name": "Cozy Oasis Pool Home-1 Min from Baptist Hospital",
+        "qualifiers": [
+         "vacation_rental",
+         "supplemental"
+        ],
+        "markerPosition": {
+         "latitude": 25.672692,
+         "longitude": -80.445776
+        }
+       },
+       {
+        "id": "88678807",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$395",
+        "name": "Elegant beautiful house w/pool 10 min from Miami Int. Airport",
+        "qualifiers": [
+         "vacation_rental",
+         "supplemental"
+        ],
+        "markerPosition": {
+         "latitude": 25.860675,
+         "longitude": -80.288991
+        }
+       },
+       {
+        "id": "122229754",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$399",
+        "name": "West Miami Luxury Home with Pool",
+        "qualifiers": [
+         "vacation_rental",
+         "supplemental"
+        ],
+        "markerPosition": {
+         "latitude": 25.627464,
+         "longitude": -80.44596
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  "extensions": {
+   "contexts": [
+    {
+     "type": "MarketingTaggingContext",
+     "data": {
+      "context": {
+       "pageIdentity": {
+        "lineOfBusiness": "H",
+        "pageIdentifier": "page.Hotels.Infosite.Information",
+        "funnelLocation": 20
+       },
+       "requestUrl": "https://www.vrbo.com/2165911",
+       "referrerUrl": null
+      },
+      "search": {
+       "searchId": "40168d4c-192b-4103-8849-8a39db609aaa",
+       "tripStartDate": "2026-12-04",
+       "tripEndDate": "2026-12-08",
+       "adultCount": 2,
+       "childCount": 2,
+       "infantCount": null,
+       "infantOnLapCount": null,
+       "roomCount": 1,
+       "originAirportCode": null,
+       "destinationAirportCode": null,
+       "originGeoId": null,
+       "destinationGeoId": "2297"
+      },
+      "products": [
+       {
+        "productId": "117152389",
+        "inventorySource": "VRBO",
+        "freeCancellationBool": true,
+        "productLine": "H",
+        "starRating": null,
+        "productUnitCount": 1,
+        "supplierName": null,
+        "pricing": {
+         "currencyDisplayed": "USD",
+         "priceDisplayed": 327.63,
+         "priceTotalPriceAmount": 829.5
+        },
+        "lodgingProduct": {
+         "propertyBrandId": null,
+         "propertyName": "CowboyPool, MiniGolf, Arcade, Firepit, PingPong! Hallandale Beach Gem",
+         "vrboListingTriad": null
+        },
+        "flightProduct": null,
+        "carProduct": null,
+        "multiitemProduct": null
+       },
+       {
+        "productId": "31963447",
+        "inventorySource": "VRBO",
+        "freeCancellationBool": true,
+        "productLine": "H",
+        "starRating": null,
+        "productUnitCount": 1,
+        "supplierName": null,
+        "pricing": {
+         "currencyDisplayed": "USD",
+         "priceDisplayed": 336.0,
+         "priceTotalPriceAmount": 925.0
+        },
+        "lodgingProduct": {
+         "propertyBrandId": null,
+         "propertyName": "Grey Manor \u2013 Spacious 3BR/2BA Hallandale Home, Heated Pool & Smart Amenities",
+         "vrboListingTriad": null
+        },
+        "flightProduct": null,
+        "carProduct": null,
+        "multiitemProduct": null
+       },
+       {
+        "productId": "88696947",
+        "inventorySource": "VRBO",
+        "freeCancellationBool": false,
+        "productLine": "H",
+        "starRating": null,
+        "productUnitCount": 1,
+        "supplierName": null,
+        "pricing": {
+         "currencyDisplayed": "USD",
+         "priceDisplayed": 390.0,
+         "priceTotalPriceAmount": 1125.0
+        },
+        "lodgingProduct": {
+         "propertyBrandId": null,
+         "propertyName": "Cozy Oasis Pool Home-1 Min from Baptist Hospital",
+         "vrboListingTriad": null
+        },
+        "flightProduct": null,
+        "carProduct": null,
+        "multiitemProduct": null
+       }
+      ],
+      "errors": [],
+      "checkout": null,
+      "booking": null
+     }
+    }
+   ],
+   "analytics": [
+    {
+     "traceId": "40168d4c-192b-4103-8849-8a39db609aaa",
+     "creationTimestamp": 1793362359089,
+     "context": {
+      "pageIdentity": {
+       "lineOfBusiness": "H",
+       "pageIdentifier": "page.Hotels.Infosite.Information",
+       "funnelLocation": 20
+      },
+      "executeXdid": true,
+      "tealiumAccountDetailsPWA": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "beaconOffConfig": {
+       "settings": {
+        "adobeSuiteAccount": "expediaglobaluserdev",
+        "sendToAdobeClientSide": false,
+        "sendToAdobeServerSide": false,
+        "sendToS3": false,
+        "adobeSuiteUrl": "http://expedia.112.2o7.net/b/ss/expediaglobaluserdev/6"
+       },
+       "rulesMatched": "ALL_BEACON_OFF",
+       "bucketing": {
+        "experimentInstance": "",
+        "bucketValue": 2,
+        "experimentId": ""
+       },
+       "error": ""
+      },
+      "tealiumAccountDetails": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "entryPageView": false,
+      "beaconEnabled": true,
+      "newVisit": false
+     },
+     "tealiumUtagData": {
+      "lineOfBusiness": "hotels",
+      "siteCountryCode": "US",
+      "country": "United States of America",
+      "loggedUser": -1,
+      "language": "en",
+      "roomNights": 4,
+      "pageName": "page.Hotels.Infosite.Information",
+      "xLineOfBusiness": "HOTEL",
+      "checkOutDate": "2026-12-08",
+      "context": {
+       "traceId": "40168d4c192b410388498a39db609aaa",
+       "site": {
+        "companyCode": "10140",
+        "tpid": 9001,
+        "eapid": 1,
+        "brandId": "vrbo",
+        "siteId": 9001001,
+        "siteName": "www.vrbo.com",
+        "jurisdictionCode": "USA",
+        "managementUnitCode": "6610",
+        "defaultCountry": "US"
+       },
+       "privacyContext": {
+        "canTrack": true,
+        "canSell": true,
+        "optInPrivacySelection": {
+         "yesSelected": false,
+         "isSet": false
+        },
+        "dataProtectionGuideline": "GDPR"
+       },
+       "requestId": "40168d4c-192b-4103-8849-8a39db609aaa",
+       "hopScotchSessionId": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "clientInfo": {
+        "deviceCharacteristics": {
+         "brandName": "Chrome",
+         "deviceOs": "Mac OS X",
+         "mobileBrowserVersion": "150",
+         "resolutionHeight": 800,
+         "mobile": false,
+         "deviceOsVersion": "10.15",
+         "mobileBrowser": "Chrome",
+         "physicalScreenHeight": 175,
+         "modelName": "150",
+         "tablet": false,
+         "resolutionWidth": 1280,
+         "wirelessDevice": false,
+         "physicalScreenWidth": 280
+        },
+        "os": "Mac OS X",
+        "ipAddress": "107.223.153.***",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "requestMadeByBot": true,
+        "coords": {
+         "country": "US",
+         "city": "BILOXI",
+         "latitude": 30.5095,
+         "state": "MS",
+         "longitude": -88.9735
+        }
+       },
+       "sessionId": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "user": {
+        "xVisitorId": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "accountType": "FULL",
+        "guid": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+        "registered": false,
+        "tuid": -1,
+        "userType": "ANONYMOUS",
+        "expUserProfileId": -1,
+        "softAccount": false
+       }
+      },
+      "numChildren": 2,
+      "state": "Miami-Dade County",
+      "guestRating": 5.0,
+      "brand": "vrbo",
+      "lobDomain": "HOTEL",
+      "tpid": 9001,
+      "inventoryType": "MERCHANT",
+      "gaUserId": -1,
+      "membershipTier": "",
+      "Geo": {
+       "country": "US",
+       "city": "BILOXI",
+       "latitude": 30.5095,
+       "state": "MS",
+       "longitude": -88.9735
+      },
+      "lengthOfStay": 4,
+      "domain": "HOTEL",
+      "guid": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+      "hotelType": "MERCHANT",
+      "city": "Miami, Florida, United States of America",
+      "tc_vars": {
+       "property_city_name": "Miami, Florida, United States of America",
+       "point_of_sale_eg_pos_id": "VRBO_US",
+       "hotel_product_property_name": "CowboyPool MiniGolf Arcade Firepit PingPong Hallandale Beach Gem",
+       "language": "en",
+       "hotel_product_third_property_id": 88696947,
+       "search_request_gaia_id": "2297",
+       "point_of_sale_eg_brand_name": "vrbo",
+       "device_information_device_type": "DESKTOP",
+       "search_request_number_of_children": 2,
+       "timestamps_received_at": "2026-10-30T12:12:38.337310097Z",
+       "user_authentication_state": "ANONYMOUS",
+       "host": "www.vrbo.com",
+       "point_of_sale": "Unknown",
+       "is_EU_POS": false,
+       "event_page_name_detailed": "page.Hotels.Infosite.Information",
+       "product_list_lodging_product_property_name": "CowboyPool MiniGolf Arcade Firepit PingPong Hallandale Beach Gem",
+       "default_domain": "www.vrbo.com",
+       "product_list_inventory_source": "HOME_AWAY",
+       "isNativeOneCKO": false,
+       "hotel_product_first_three_property_ids": [
+        117152389,
+        31963447,
+        88696947
+       ],
+       "identifiers_event_trace_id": "40168d4c192b410388498a39db609aaa",
+       "search_request_booking_window": 35.0,
+       "event_page_funnel_location": "SEARCH_RESULTS",
+       "referrer_url_encoded": "https%3A%2F%2Fwww.vrbo.com%2F2165911",
+       "request_request_url": "http://www.vrbo.com/graphql",
+       "line_of_business": "hotels",
+       "is_native_app_onecheckout": false,
+       "event_page_name": "page.Hotels.Infosite.Information",
+       "domain": "HOTEL",
+       "product_list_product_id": 117152389,
+       "marketing_latest_platform_entry_id": "a392d27b-72da-4818-a5d6-58e94bf79543",
+       "search_request_trip_end_date": "2026-12-08",
+       "gaia_state": "Miami-Dade County",
+       "privacy_gdpr_consent": true,
+       "city": "Miami, Florida, United States of America",
+       "hotel_product_second_property_id": 31963447,
+       "identifiers_session_id": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "marketing_sslt_attributed_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "identifiers_tpid": 9001,
+       "identifiers_site_id": 9001001,
+       "travel_dates": "2026-12-04|2026-12-08",
+       "is_native_app": false,
+       "is_uis_prime_sourced": true,
+       "point_of_sale_site_currency_code": "USD",
+       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+       "privacy_ccpa_consent": true,
+       "identifiers_device_user_agent_id": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+       "marketing_sslt_attributed_platform_entryId": "a392d27b-72da-4818-a5d6-58e94bf79543",
+       "product_list_pricing_price_total_price_amount": 1310.5,
+       "point_of_sale_locale": "US",
+       "user_brand_customer_id": -1,
+       "booking_product_line": "H",
+       "marketing_same_session_marketing_code": "direct",
+       "marketing_latest_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "event_page_product_line": "HOTEL",
+       "search_request_gaia_city": "Miami",
+       "hotel_product_first_property_id": 117152389,
+       "search_request_number_of_adults": 2,
+       "environment": "prod",
+       "search_request_number_of_rooms": 1,
+       "search_request_travel_dates": "20261204|20261208",
+       "search_request_trip_start_date": "2026-12-04",
+       "destination_airport_code": "2297",
+       "referrer_url": "https://www.vrbo.com/2165911",
+       "search_request_gaia_country": "USA"
+      },
+      "siteName": "www.vrbo.com",
+      "numberOfRooms": 1,
+      "locale": "en_US",
+      "expUserProfileId": -1,
+      "checkInDate": "2026-12-04",
+      "eapid": 1,
+      "offeredAmenities": [
+       0,
+       0,
+       0
+      ],
+      "funnelLocation": "SEARCH_RESULTS",
+      "destinationName": "Miami, Florida, United States of America",
+      "bookingWindow": 35,
+      "tc_context": {
+       "tcContainerUrl": "https://cdn.tagcommander.com/6035/tc_vrbo_prod.js",
+       "enabled": true
+      },
+      "starRating": "",
+      "numAdults": 2,
+      "pageInfo": {
+       "lineOfBusiness": "hotels",
+       "requestURL": "http://www.vrbo.com/graphql",
+       "funnelLocation": "SEARCH_RESULTS",
+       "currency": "USD",
+       "language": "en",
+       "pageName": "page.Hotels.Infosite.Information",
+       "events": "SearchResultsProduct,DatedSearch,SearchResultsHotel,SearchResultsVacationRentalsPreFiltered",
+       "authInfo": {
+        "rewardsStatus": {
+         "confirmedPoints": 0
+        }
+       },
+       "xLineOfBusiness": "HOTEL"
+      },
+      "numberOfGuests": 4,
+      "tuid": -1,
+      "hotelId": 117152389,
+      "hotelName": "CowboyPool MiniGolf Arcade Firepit PingPong Hallandale Beach Gem",
+      "regionId": "",
+      "confirmedPoints": 0,
+      "siteId": 9001001,
+      "currencyCode": "USD",
+      "entity": {
+       "tripDetails": {
+        "hotelOffer": {
+         "hotelId": 117152389,
+         "hotelName": "CowboyPool, MiniGolf, Arcade, Firepit, PingPong! Hallandale Beach Gem",
+         "hotelDescription": {
+          "rooms": [
+           {
+            "numAdults": 2,
+            "numChildren": 2,
+            "numSeniors": 0
+           },
+           {
+            "numAdults": 2,
+            "numChildren": 2,
+            "numSeniors": 0
+           },
+           {
+            "numAdults": 2,
+            "numChildren": 2,
+            "numSeniors": 0
+           },
+           {
+            "numAdults": 2,
+            "numChildren": 2,
+            "numSeniors": 0
+           },
+           {
+            "numAdults": 2,
+            "numChildren": 2,
+            "numSeniors": 0
+           }
+          ],
+          "regionId": "2297",
+          "gaiaRegion": {},
+          "hotelId": 117152389
+         }
+        }
+       },
+       "productTypes": [
+        "HOTEL"
+       ]
+      }
+     },
+     "version": "12.0.1",
+     "applicationName": "experience-api-lodging-search"
+    }
+   ],
+   "trace": {
+    "Trace-ID": "40168d4c-192b-4103-8849-8a39db609aaa"
+   }
+  }
+ }
+]

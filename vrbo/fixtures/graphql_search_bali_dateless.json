@@ -1,0 +1,1177 @@
+[
+ {
+  "data": {
+   "propertySearch": {
+    "summary": {
+     "matchedPropertiesSize": 52,
+     "resultsHeading": "Search results showing 52 properties in Bali, Indonesia|Google map showing 52 properties"
+    },
+    "pagination": {
+     "paginationLabel": "1 - 50 of 52",
+     "subSets": {
+      "nextSubSet": {
+       "size": 5,
+       "startingIndex": 5
+      },
+      "previousSubset": null
+     }
+    },
+    "criteria": {
+     "primary": {
+      "destination": {
+       "regionId": "602651",
+       "regionName": "Bali, Indonesia"
+      },
+      "dateRange": null,
+      "rooms": [
+       {
+        "adults": 2,
+        "children": []
+       }
+      ]
+     },
+     "secondary": {
+      "selections": [
+       {
+        "id": "sort",
+        "value": "RECOMMENDED"
+       },
+       {
+        "id": "privacyTrackingState",
+        "value": "CAN_NOT_TRACK"
+       },
+       {
+        "id": "theme",
+        "value": ""
+       },
+       {
+        "id": "userIntent",
+        "value": ""
+       }
+      ],
+      "ranges": [],
+      "counts": [
+       {
+        "id": "resultsStartingIndex",
+        "value": 0
+       },
+       {
+        "id": "resultsSize",
+        "value": 5
+       }
+      ],
+      "booleans": [
+       {
+        "id": "vipOnly",
+        "value": false
+       },
+       {
+        "id": "showVacationRentalsOnly",
+        "value": false
+       }
+      ]
+     }
+    },
+    "propertySearchListings": [
+     {
+      "__typename": "PropertySearchListingPlaceholder"
+     },
+     {
+      "__typename": "NestedListingContainer"
+     },
+     {
+      "__typename": "LodgingCard",
+      "id": "94878475",
+      "headingSection": {
+       "heading": "3bedroom entire Private Villa at Rural Village Tampaksiring",
+       "messages": [
+        {
+         "text": "3\u00a0bedrooms \u00b7\u00a03 Double Beds \u00b7\u00a0AC \u00b7\u00a0Internet"
+        },
+        {
+         "text": "1 mi (1.7 km) to Tampaksiring center"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": null
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$229"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "for 1 night",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "Oct 31 - Nov 1",
+            "state": null
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$229"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $229 avg per night"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "avg per night"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/3430583?dateless=true&x_pwa=1&rfrr=HSR&pwa_ts=1793362355174&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&regionId=602651&destination=Bali%2C+Indonesia&destType=MARKET&latLong=-8.340539%2C115.09195&sort=RECOMMENDED&userIntent=&expediaPropertyId=94878475"
+       }
+      },
+      "mediaSection": {
+       "badges": null,
+       "gallery": {
+        "media": [
+         {
+          "id": "247435",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94880000/94878500/94878475/f657a7e7.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of 3bedroom entire Private Villa at Rural Village Tampaksiring"
+          }
+         },
+         {
+          "id": "536006",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94880000/94878500/94878475/91595ac8.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of 3bedroom entire Private Villa at Rural Village Tampaksiring"
+          }
+         },
+         {
+          "id": "243041",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94880000/94878500/94878475/83fc58ee.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of 3bedroom entire Private Villa at Rural Village Tampaksiring"
+          }
+         },
+         {
+          "id": "805443",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94880000/94878500/94878475/a132c838.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of 3bedroom entire Private Villa at Rural Village Tampaksiring"
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "__typename": "LodgingCard",
+      "id": "46965595",
+      "headingSection": {
+       "heading": "Lanussa Hill Villa. Lembongan Ocean View villa",
+       "messages": [
+        {
+         "text": "1\u00a0bedroom \u00b7\u00a0Swimming pool \u00b7\u00a0Breakfast incl \u00b7\u00a0AC"
+        },
+        {
+         "text": "1 min drive to the beach"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": null
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$50"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "for 1 night",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "Oct 31 - Nov 1",
+            "state": null
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$50"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $50 avg per night"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "avg per night"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/9371637ha?dateless=true&x_pwa=1&rfrr=HSR&pwa_ts=1793362355181&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&regionId=602651&destination=Bali%2C+Indonesia&destType=MARKET&neighborhoodId=553248633981737202&latLong=-8.340539%2C115.09195&sort=RECOMMENDED&userIntent=&expediaPropertyId=46965595"
+       }
+      },
+      "mediaSection": {
+       "badges": null,
+       "gallery": {
+        "media": [
+         {
+          "id": "440288",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/47000000/46970000/46965600/46965595/0d48de1f.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Lanussa Hill Villa. Lembongan Ocean View villa"
+          }
+         },
+         {
+          "id": "844824",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/47000000/46970000/46965600/46965595/778e59ea.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Lanussa Hill Villa. Lembongan Ocean View villa"
+          }
+         },
+         {
+          "id": "102514",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/47000000/46970000/46965600/46965595/d25557b0.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Lanussa Hill Villa. Lembongan Ocean View villa"
+          }
+         },
+         {
+          "id": "110532",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/47000000/46970000/46965600/46965595/60124ee0.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Lanussa Hill Villa. Lembongan Ocean View villa"
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "__typename": "LodgingCard",
+      "id": "94788247",
+      "headingSection": {
+       "heading": "The Cozy Hub ~ Perfect Location",
+       "messages": [
+        {
+         "text": "2\u00a0bedrooms \u00b7\u00a02 King Beds \u00b7\u00a0Dog-friendly \u00b7\u00a0Swimming pool \u00b7\u00a0AC"
+        },
+        {
+         "text": "9 min drive to the beach"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": {
+         "graphic": {
+          "text": "10"
+         },
+         "title": {
+          "shoppingProductTitle": {
+           "text": "Exceptional \u00b7\u00a01 review"
+          }
+         }
+        }
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$104"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "for 1 night",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "Oct 31 - Nov 1",
+            "state": null
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$104"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $104 avg per night"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "avg per night"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/3423167?dateless=true&x_pwa=1&rfrr=HSR&pwa_ts=1793362355183&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&regionId=602651&destination=Bali%2C+Indonesia&destType=MARKET&neighborhoodId=553248633981707185&latLong=-8.340539%2C115.09195&sort=RECOMMENDED&userIntent=&expediaPropertyId=94788247"
+       }
+      },
+      "mediaSection": {
+       "badges": null,
+       "gallery": {
+        "media": [
+         {
+          "id": "852833",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94790000/94788300/94788247/5fd1ca52.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of The Cozy Hub ~ Perfect Location"
+          }
+         },
+         {
+          "id": "27438",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94790000/94788300/94788247/af8981d8.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of The Cozy Hub ~ Perfect Location"
+          }
+         },
+         {
+          "id": "91840",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94790000/94788300/94788247/f3531ac0.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of The Cozy Hub ~ Perfect Location"
+          }
+         },
+         {
+          "id": "879332",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94790000/94788300/94788247/e14e2cb1.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of The Cozy Hub ~ Perfect Location"
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "__typename": "LodgingCard",
+      "id": "94898256",
+      "headingSection": {
+       "heading": "Bright Modern 3BR Villa in Canggu",
+       "messages": [
+        {
+         "text": "3\u00a0bedrooms \u00b7\u00a03 King Beds \u00b7\u00a0Balcony \u00b7\u00a0Private pool \u00b7\u00a0AC"
+        },
+        {
+         "text": "Within Padonan"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": {
+         "graphic": {
+          "text": "8.8"
+         },
+         "title": null
+        }
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$449"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "for 1 night",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "Feb 26 - Feb 27, 2027",
+            "state": null
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$449"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $449 avg per night"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "avg per night"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/3432294?dateless=true&x_pwa=1&rfrr=HSR&pwa_ts=1793362355185&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&regionId=602651&destination=Bali%2C+Indonesia&destType=MARKET&neighborhoodId=553248633981705438&latLong=-8.340539%2C115.09195&sort=RECOMMENDED&userIntent=&expediaPropertyId=94898256"
+       }
+      },
+      "mediaSection": {
+       "badges": null,
+       "gallery": {
+        "media": [
+         {
+          "id": "268755",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94900000/94898300/94898256/972d5f11.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Bright Modern 3BR Villa in Canggu"
+          }
+         },
+         {
+          "id": "467394",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94900000/94898300/94898256/3a589ad5.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Bright Modern 3BR Villa in Canggu"
+          }
+         },
+         {
+          "id": "953569",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94900000/94898300/94898256/7ec62c67.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Bright Modern 3BR Villa in Canggu"
+          }
+         },
+         {
+          "id": "681878",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/95000000/94900000/94898300/94898256/16322954.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Bright Modern 3BR Villa in Canggu"
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "__typename": "LodgingCard",
+      "id": "5448109",
+      "headingSection": {
+       "heading": "Kembali Villas",
+       "messages": [
+        {
+         "text": "3\u00a0bedrooms \u00b7\u00a03 beds \u00b7\u00a0In-room massage \u00b7\u00a0Room service \u00b7\u00a0Private pool"
+        },
+        {
+         "text": "8 min walk to the beach"
+        }
+       ],
+       "featuredMessages": []
+      },
+      "summarySections": [
+       {
+        "reviewSummary": {
+         "graphic": {
+          "text": "9.6"
+         },
+         "title": {
+          "shoppingProductTitle": {
+           "text": "Exceptional \u00b7\u00a0103 reviews"
+          }
+         }
+        }
+       }
+      ],
+      "priceSection": {
+       "priceSummary": {
+        "displayMessages": [
+         {
+          "lineItems": [
+           {
+            "__typename": "DisplayPrice",
+            "role": "LEAD",
+            "price": {
+             "formatted": "$196"
+            }
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "for 1 night",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "All fees included",
+            "state": null
+           }
+          ]
+         },
+         {
+          "lineItems": [
+           {
+            "__typename": "LodgingEnrichedMessage",
+            "value": "Nov 22 - Nov 23",
+            "state": null
+           }
+          ]
+         }
+        ],
+        "options": [
+         {
+          "displayPrice": {
+           "formatted": "$196"
+          },
+          "strikeOut": null,
+          "accessibilityLabel": "Price is $196 avg per night"
+         }
+        ],
+        "priceMessaging": [
+         {
+          "value": "avg per night"
+         }
+        ]
+       },
+       "standardBadge": null
+      },
+      "cardLink": {
+       "resource": {
+        "value": "https://www.vrbo.com/pdp/lo/5448109?dateless=true&x_pwa=1&rfrr=HSR&pwa_ts=1793362355187&referrerUrl=aHR0cHM6Ly93d3cudnJiby5jb20vSG90ZWwtU2VhcmNo&useRewards=false&adults=2&regionId=602651&destination=Bali%2C+Indonesia&destType=MARKET&neighborhoodId=553248633981705566&latLong=-8.340539%2C115.09195&sort=RECOMMENDED&userIntent=&expediaPropertyId=5448109"
+       }
+      },
+      "mediaSection": {
+       "badges": null,
+       "gallery": {
+        "media": [
+         {
+          "id": "950889",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/6000000/5450000/5448200/5448109/cc73f26c.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Kembali Villas"
+          }
+         },
+         {
+          "id": "747372",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/6000000/5450000/5448200/5448109/52f42e06.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Kembali Villas"
+          }
+         },
+         {
+          "id": "543443",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/6000000/5450000/5448200/5448109/cd2ee566.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Kembali Villas"
+          }
+         },
+         {
+          "id": "994666",
+          "media": {
+           "url": "https://media.vrbo.com/lodging/6000000/5450000/5448200/5448109/1963304b.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455",
+           "description": "Image of Kembali Villas"
+          }
+         }
+        ]
+       }
+      }
+     }
+    ],
+    "dynamicMap": {
+     "map": {
+      "markers": [
+       {
+        "id": "94878475",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$229",
+        "name": "3bedroom entire Private Villa at Rural Village Tampaksiring",
+        "qualifiers": [
+         "vacation_rental"
+        ],
+        "markerPosition": {
+         "latitude": -8.43811,
+         "longitude": 115.306189
+        }
+       },
+       {
+        "id": "46965595",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$50",
+        "name": "Lanussa Hill Villa. Lembongan Ocean View villa",
+        "qualifiers": [
+         "vacation_rental"
+        ],
+        "markerPosition": {
+         "latitude": -8.689306,
+         "longitude": 115.451105
+        }
+       },
+       {
+        "id": "94788247",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$104",
+        "name": "The Cozy Hub ~ Perfect Location",
+        "qualifiers": [
+         "vacation_rental"
+        ],
+        "markerPosition": {
+         "latitude": -8.644821,
+         "longitude": 115.137702
+        }
+       },
+       {
+        "id": "94898256",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$449",
+        "name": "Bright Modern 3BR Villa in Canggu",
+        "qualifiers": [
+         "vacation_rental"
+        ],
+        "markerPosition": {
+         "latitude": -8.639602,
+         "longitude": 115.154234
+        }
+       },
+       {
+        "id": "5448109",
+        "type": "PROPERTY",
+        "markerStatus": "AVAILABLE",
+        "text": "$196",
+        "name": "Kembali Villas",
+        "qualifiers": [
+         "vacation_rental"
+        ],
+        "markerPosition": {
+         "latitude": -8.688126,
+         "longitude": 115.157034
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  "extensions": {
+   "analytics": [
+    {
+     "traceId": "920dc956-b2c9-4ddc-8ad9-f5908b0a0885",
+     "creationTimestamp": 1793362355211,
+     "context": {
+      "pageIdentity": {
+       "lineOfBusiness": "H",
+       "pageIdentifier": "page.Hotels.Infosite.Information",
+       "funnelLocation": 20
+      },
+      "executeXdid": true,
+      "tealiumAccountDetailsPWA": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "beaconOffConfig": {
+       "settings": {
+        "adobeSuiteAccount": "expediaglobaluserdev",
+        "sendToAdobeClientSide": false,
+        "sendToAdobeServerSide": false,
+        "sendToS3": false,
+        "adobeSuiteUrl": "http://expedia.112.2o7.net/b/ss/expediaglobaluserdev/6"
+       },
+       "rulesMatched": "ALL_BEACON_OFF",
+       "bucketing": {
+        "experimentInstance": "",
+        "bucketValue": 2,
+        "experimentId": ""
+       },
+       "error": ""
+      },
+      "tealiumAccountDetails": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "entryPageView": false,
+      "beaconEnabled": true,
+      "newVisit": false
+     },
+     "tealiumUtagData": {
+      "lineOfBusiness": "hotels",
+      "siteCountryCode": "US",
+      "country": "Indonesia",
+      "city": "",
+      "loggedUser": -1,
+      "tc_vars": {
+       "property_city_name": "Bali, Indonesia",
+       "point_of_sale_eg_pos_id": "VRBO_US",
+       "hotel_product_property_name": "bedroom entire Private Villa at Rural Village Tampaksiring",
+       "language": "en",
+       "hotel_product_third_property_id": 94788247,
+       "search_request_gaia_id": "602651",
+       "point_of_sale_eg_brand_name": "vrbo",
+       "device_information_device_type": "DESKTOP",
+       "search_request_number_of_children": 0,
+       "timestamps_received_at": "2026-10-30T12:12:34.763093515Z",
+       "user_authentication_state": "ANONYMOUS",
+       "host": "www.vrbo.com",
+       "point_of_sale": "Unknown",
+       "is_EU_POS": false,
+       "event_page_name_detailed": "page.Hotels.Infosite.Information",
+       "product_list_lodging_product_property_name": "bedroom entire Private Villa at Rural Village Tampaksiring",
+       "default_domain": "www.vrbo.com",
+       "product_list_inventory_source": "MERCHANT",
+       "isNativeOneCKO": false,
+       "hotel_product_first_three_property_ids": [
+        94878475,
+        46965595,
+        94788247
+       ],
+       "identifiers_event_trace_id": "920dc956b2c94ddc8ad9f5908b0a0885",
+       "event_page_funnel_location": "SEARCH_RESULTS",
+       "referrer_url_encoded": "https%3A%2F%2Fwww.vrbo.com%2F2165911",
+       "request_request_url": "http://www.vrbo.com/graphql",
+       "line_of_business": "hotels",
+       "is_native_app_onecheckout": false,
+       "event_page_name": "page.Hotels.Infosite.Information",
+       "domain": "HOTEL",
+       "product_list_product_id": 94878475,
+       "marketing_latest_platform_entry_id": "a392d27b-72da-4818-a5d6-58e94bf79543",
+       "privacy_gdpr_consent": true,
+       "hotel_product_second_property_id": 46965595,
+       "identifiers_session_id": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "marketing_sslt_attributed_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "identifiers_tpid": 9001,
+       "identifiers_site_id": 9001001,
+       "is_native_app": false,
+       "is_uis_prime_sourced": true,
+       "point_of_sale_site_currency_code": "USD",
+       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+       "privacy_ccpa_consent": true,
+       "identifiers_device_user_agent_id": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+       "marketing_sslt_attributed_platform_entryId": "a392d27b-72da-4818-a5d6-58e94bf79543",
+       "point_of_sale_locale": "US",
+       "user_brand_customer_id": -1,
+       "booking_product_line": "H",
+       "marketing_same_session_marketing_code": "direct",
+       "marketing_latest_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "event_page_product_line": "HOTEL",
+       "hotel_product_first_property_id": 94878475,
+       "search_request_number_of_adults": 2,
+       "environment": "prod",
+       "search_request_number_of_rooms": 1,
+       "destination_airport_code": "602651",
+       "referrer_url": "https://www.vrbo.com/2165911",
+       "search_request_gaia_country": "IDN"
+      },
+      "siteName": "www.vrbo.com",
+      "language": "en",
+      "numberOfRooms": 1,
+      "roomNights": "",
+      "locale": "en_US",
+      "expUserProfileId": -1,
+      "pageName": "page.Hotels.Infosite.Information",
+      "checkInDate": "",
+      "xLineOfBusiness": "HOTEL",
+      "eapid": 1,
+      "checkOutDate": "",
+      "offeredAmenities": [
+       0,
+       0
+      ],
+      "funnelLocation": "SEARCH_RESULTS",
+      "destinationName": "Bali, Indonesia",
+      "context": {
+       "traceId": "920dc956b2c94ddc8ad9f5908b0a0885",
+       "site": {
+        "companyCode": "10140",
+        "tpid": 9001,
+        "eapid": 1,
+        "brandId": "vrbo",
+        "siteId": 9001001,
+        "siteName": "www.vrbo.com",
+        "jurisdictionCode": "USA",
+        "managementUnitCode": "6610",
+        "defaultCountry": "US"
+       },
+       "privacyContext": {
+        "canTrack": true,
+        "canSell": true,
+        "optInPrivacySelection": {
+         "yesSelected": false,
+         "isSet": false
+        },
+        "dataProtectionGuideline": "GDPR"
+       },
+       "requestId": "920dc956-b2c9-4ddc-8ad9-f5908b0a0885",
+       "hopScotchSessionId": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "clientInfo": {
+        "deviceCharacteristics": {
+         "brandName": "Chrome",
+         "deviceOs": "Mac OS X",
+         "mobileBrowserVersion": "150",
+         "resolutionHeight": 800,
+         "mobile": false,
+         "deviceOsVersion": "10.15",
+         "mobileBrowser": "Chrome",
+         "physicalScreenHeight": 175,
+         "modelName": "150",
+         "tablet": false,
+         "resolutionWidth": 1280,
+         "wirelessDevice": false,
+         "physicalScreenWidth": 280
+        },
+        "os": "Mac OS X",
+        "ipAddress": "107.223.153.***",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "requestMadeByBot": true,
+        "coords": {
+         "country": "US",
+         "city": "BILOXI",
+         "latitude": 30.5095,
+         "state": "MS",
+         "longitude": -88.9735
+        }
+       },
+       "sessionId": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "user": {
+        "xVisitorId": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "accountType": "FULL",
+        "guid": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+        "registered": false,
+        "tuid": -1,
+        "userType": "ANONYMOUS",
+        "expUserProfileId": -1,
+        "softAccount": false
+       }
+      },
+      "numChildren": 0,
+      "bookingWindow": "",
+      "tc_context": {
+       "tcContainerUrl": "https://cdn.tagcommander.com/6035/tc_vrbo_prod.js",
+       "enabled": true
+      },
+      "state": "",
+      "starRating": "",
+      "guestRating": 0.0,
+      "brand": "vrbo",
+      "lobDomain": "HOTEL",
+      "tpid": 9001,
+      "inventoryType": "AGENCY",
+      "numAdults": 2,
+      "gaUserId": -1,
+      "pageInfo": {
+       "lineOfBusiness": "hotels",
+       "requestURL": "http://www.vrbo.com/graphql",
+       "funnelLocation": "SEARCH_RESULTS",
+       "currency": "USD",
+       "language": "en",
+       "pageName": "page.Hotels.Infosite.Information",
+       "events": "SearchResultsHotel,SearchResultsProduct",
+       "authInfo": {
+        "rewardsStatus": {
+         "confirmedPoints": 0
+        }
+       },
+       "xLineOfBusiness": "HOTEL"
+      },
+      "membershipTier": "",
+      "numberOfGuests": 2,
+      "tuid": -1,
+      "hotelId": 94878475,
+      "hotelName": "bedroom entire Private Villa at Rural Village Tampaksiring",
+      "Geo": {
+       "country": "US",
+       "city": "BILOXI",
+       "latitude": 30.5095,
+       "state": "MS",
+       "longitude": -88.9735
+      },
+      "regionId": "",
+      "domain": "HOTEL",
+      "confirmedPoints": 0,
+      "siteId": 9001001,
+      "guid": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+      "hotelType": "AGENCY",
+      "currencyCode": "USD",
+      "entity": {
+       "tripDetails": {
+        "hotelOffer": {
+         "hotelId": 94878475,
+         "hotelName": "3bedroom entire Private Villa at Rural Village Tampaksiring",
+         "hotelDescription": {
+          "rooms": [
+           {
+            "numAdults": 2,
+            "numChildren": 0,
+            "numSeniors": 0
+           },
+           {
+            "numAdults": 2,
+            "numChildren": 0,
+            "numSeniors": 0
+           },
+           {
+            "numAdults": 2,
+            "numChildren": 0,
+            "numSeniors": 0
+           },
+           {
+            "numAdults": 2,
+            "numChildren": 0,
+            "numSeniors": 0
+           },
+           {
+            "numAdults": 2,
+            "numChildren": 0,
+            "numSeniors": 0
+           }
+          ],
+          "regionId": "602651",
+          "gaiaRegion": {},
+          "hotelId": 94878475
+         }
+        }
+       },
+       "productTypes": [
+        "HOTEL"
+       ]
+      }
+     },
+     "version": "12.0.1",
+     "applicationName": "experience-api-lodging-search"
+    }
+   ],
+   "trace": {
+    "Trace-ID": "920dc956-b2c9-4ddc-8ad9-f5908b0a0885"
+   },
+   "contexts": [
+    {
+     "type": "MarketingTaggingContext",
+     "data": {
+      "context": {
+       "pageIdentity": {
+        "lineOfBusiness": "H",
+        "pageIdentifier": "page.Hotels.Infosite.Information",
+        "funnelLocation": 20
+       },
+       "requestUrl": "https://www.vrbo.com/2165911",
+       "referrerUrl": null
+      },
+      "search": {
+       "searchId": "920dc956-b2c9-4ddc-8ad9-f5908b0a0885",
+       "tripStartDate": null,
+       "tripEndDate": null,
+       "adultCount": 2,
+       "childCount": 0,
+       "infantCount": null,
+       "infantOnLapCount": null,
+       "roomCount": 1,
+       "originAirportCode": null,
+       "destinationAirportCode": null,
+       "originGeoId": null,
+       "destinationGeoId": "602651"
+      },
+      "products": [
+       {
+        "productId": "94878475",
+        "inventorySource": "MERCHANT",
+        "freeCancellationBool": false,
+        "productLine": "H",
+        "starRating": null,
+        "productUnitCount": 1,
+        "supplierName": null,
+        "pricing": {
+         "currencyDisplayed": "USD",
+         "priceDisplayed": 229.0,
+         "priceTotalPriceAmount": null
+        },
+        "lodgingProduct": {
+         "propertyBrandId": null,
+         "propertyName": "3bedroom entire Private Villa at Rural Village Tampaksiring",
+         "vrboListingTriad": null
+        },
+        "flightProduct": null,
+        "carProduct": null,
+        "multiitemProduct": null
+       },
+       {
+        "productId": "46965595",
+        "inventorySource": "MERCHANT",
+        "freeCancellationBool": false,
+        "productLine": "H",
+        "starRating": null,
+        "productUnitCount": 1,
+        "supplierName": null,
+        "pricing": {
+         "currencyDisplayed": "USD",
+         "priceDisplayed": 50.0,
+         "priceTotalPriceAmount": null
+        },
+        "lodgingProduct": {
+         "propertyBrandId": null,
+         "propertyName": "Lanussa Hill Villa. Lembongan Ocean View villa",
+         "vrboListingTriad": null
+        },
+        "flightProduct": null,
+        "carProduct": null,
+        "multiitemProduct": null
+       },
+       {
+        "productId": "94788247",
+        "inventorySource": "MERCHANT",
+        "freeCancellationBool": false,
+        "productLine": "H",
+        "starRating": null,
+        "productUnitCount": 1,
+        "supplierName": null,
+        "pricing": {
+         "currencyDisplayed": "USD",
+         "priceDisplayed": 104.09,
+         "priceTotalPriceAmount": null
+        },
+        "lodgingProduct": {
+         "propertyBrandId": null,
+         "propertyName": "The Cozy Hub ~ Perfect Location",
+         "vrboListingTriad": null
+        },
+        "flightProduct": null,
+        "carProduct": null,
+        "multiitemProduct": null
+       }
+      ],
+      "errors": [],
+      "checkout": null,
+      "booking": null
+     }
+    }
+   ]
+  }
+ }
+]

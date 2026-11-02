@@ -1,0 +1,368 @@
+[
+ {
+  "data": {
+   "propertySearch": {
+    "summary": {
+     "matchedPropertiesSize": 398,
+     "resultsHeading": "Search results showing 398 properties in Miami, Florida, United States of America. December 4, 2026 through December 8, 2026|Google map showing 398 properties"
+    },
+    "pagination": null,
+    "criteria": {
+     "primary": {
+      "destination": {
+       "regionId": "2297",
+       "regionName": "Miami, Florida, United States of America"
+      },
+      "dateRange": {
+       "checkInDate": {
+        "day": 4,
+        "month": 12,
+        "year": 2026
+       },
+       "checkOutDate": {
+        "day": 8,
+        "month": 12,
+        "year": 2026
+       }
+      },
+      "rooms": [
+       {
+        "adults": 2,
+        "children": []
+       }
+      ]
+     },
+     "secondary": {
+      "selections": [
+       {
+        "id": "sort",
+        "value": "RECOMMENDED"
+       },
+       {
+        "id": "privacyTrackingState",
+        "value": "CAN_NOT_TRACK"
+       },
+       {
+        "id": "theme",
+        "value": ""
+       },
+       {
+        "id": "userIntent",
+        "value": ""
+       }
+      ],
+      "ranges": [],
+      "counts": [
+       {
+        "id": "resultsStartingIndex",
+        "value": 1000
+       },
+       {
+        "id": "resultsSize",
+        "value": 50
+       }
+      ],
+      "booleans": [
+       {
+        "id": "vipOnly",
+        "value": false
+       },
+       {
+        "id": "showVacationRentalsOnly",
+        "value": false
+       }
+      ]
+     }
+    },
+    "propertySearchListings": [],
+    "dynamicMap": {
+     "map": {
+      "markers": []
+     }
+    }
+   }
+  },
+  "extensions": {
+   "analytics": [
+    {
+     "traceId": "6d9fab62-15a5-40af-8a9c-3829dbc34c7e",
+     "creationTimestamp": 1793362354141,
+     "context": {
+      "pageIdentity": {
+       "lineOfBusiness": "H",
+       "pageIdentifier": "page.Hotels.Infosite.Information",
+       "funnelLocation": 20
+      },
+      "executeXdid": true,
+      "tealiumAccountDetailsPWA": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "beaconOffConfig": {
+       "settings": {
+        "adobeSuiteAccount": "expediaglobaluserdev",
+        "sendToAdobeClientSide": false,
+        "sendToAdobeServerSide": false,
+        "sendToS3": false,
+        "adobeSuiteUrl": "http://expedia.112.2o7.net/b/ss/expediaglobaluserdev/6"
+       },
+       "rulesMatched": "ALL_BEACON_OFF",
+       "bucketing": {
+        "experimentInstance": "",
+        "bucketValue": 2,
+        "experimentId": ""
+       },
+       "error": ""
+      },
+      "tealiumAccountDetails": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "entryPageView": false,
+      "beaconEnabled": true,
+      "newVisit": false
+     },
+     "tealiumUtagData": {
+      "lineOfBusiness": "hotels",
+      "siteCountryCode": "US",
+      "country": "United States of America",
+      "city": "Miami, Florida, United States of America",
+      "loggedUser": -1,
+      "tc_vars": {
+       "property_city_name": "Miami, Florida, United States of America",
+       "point_of_sale_eg_pos_id": "VRBO_US",
+       "language": "en",
+       "search_request_gaia_id": "2297",
+       "point_of_sale_eg_brand_name": "vrbo",
+       "device_information_device_type": "DESKTOP",
+       "search_request_number_of_children": 0,
+       "timestamps_received_at": "2026-10-30T12:12:33.931392755Z",
+       "user_authentication_state": "ANONYMOUS",
+       "error_description": "",
+       "host": "www.vrbo.com",
+       "point_of_sale": "Unknown",
+       "is_EU_POS": false,
+       "event_page_name_detailed": "page.Hotels.Infosite.Information",
+       "default_domain": "www.vrbo.com",
+       "isNativeOneCKO": false,
+       "identifiers_event_trace_id": "6d9fab6215a540af8a9c3829dbc34c7e",
+       "search_request_booking_window": 35.0,
+       "event_page_funnel_location": "SEARCH_RESULTS",
+       "referrer_url_encoded": "https%3A%2F%2Fwww.vrbo.com%2F2165911",
+       "request_request_url": "http://www.vrbo.com/graphql",
+       "line_of_business": "hotels",
+       "is_native_app_onecheckout": false,
+       "event_page_name": "page.Hotels.Infosite.Information",
+       "domain": "HOTEL",
+       "marketing_latest_platform_entry_id": "a392d27b-72da-4818-a5d6-58e94bf79543",
+       "search_request_trip_end_date": "2026-12-08",
+       "error_code": "LSSS_SEARCH_FAILURE",
+       "gaia_state": "Miami-Dade County",
+       "privacy_gdpr_consent": true,
+       "city": "Miami, Florida, United States of America",
+       "identifiers_session_id": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "marketing_sslt_attributed_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "identifiers_tpid": 9001,
+       "identifiers_site_id": 9001001,
+       "travel_dates": "2026-12-04|2026-12-08",
+       "is_native_app": false,
+       "is_uis_prime_sourced": true,
+       "point_of_sale_site_currency_code": "USD",
+       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+       "privacy_ccpa_consent": true,
+       "identifiers_device_user_agent_id": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+       "marketing_sslt_attributed_platform_entryId": "a392d27b-72da-4818-a5d6-58e94bf79543",
+       "point_of_sale_locale": "US",
+       "user_brand_customer_id": -1,
+       "booking_product_line": "H",
+       "marketing_same_session_marketing_code": "direct",
+       "marketing_latest_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "event_page_product_line": "HOTEL",
+       "search_request_gaia_city": "Miami",
+       "search_request_number_of_adults": 2,
+       "environment": "prod",
+       "search_request_number_of_rooms": 1,
+       "search_request_travel_dates": "20261204|20261208",
+       "search_request_trip_start_date": "2026-12-04",
+       "destination_airport_code": "2297",
+       "referrer_url": "https://www.vrbo.com/2165911",
+       "search_request_gaia_country": "USA"
+      },
+      "siteName": "www.vrbo.com",
+      "language": "en",
+      "numberOfRooms": 1,
+      "roomNights": 4,
+      "locale": "en_US",
+      "expUserProfileId": -1,
+      "pageName": "page.Hotels.Infosite.Information",
+      "checkInDate": "2026-12-04",
+      "xLineOfBusiness": "HOTEL",
+      "eapid": 1,
+      "checkOutDate": "2026-12-08",
+      "funnelLocation": "SEARCH_RESULTS",
+      "destinationName": "Miami, Florida, United States of America",
+      "context": {
+       "traceId": "6d9fab6215a540af8a9c3829dbc34c7e",
+       "site": {
+        "companyCode": "10140",
+        "tpid": 9001,
+        "eapid": 1,
+        "brandId": "vrbo",
+        "siteId": 9001001,
+        "siteName": "www.vrbo.com",
+        "jurisdictionCode": "USA",
+        "managementUnitCode": "6610",
+        "defaultCountry": "US"
+       },
+       "privacyContext": {
+        "canTrack": true,
+        "canSell": true,
+        "optInPrivacySelection": {
+         "yesSelected": false,
+         "isSet": false
+        },
+        "dataProtectionGuideline": "GDPR"
+       },
+       "requestId": "6d9fab62-15a5-40af-8a9c-3829dbc34c7e",
+       "hopScotchSessionId": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "clientInfo": {
+        "deviceCharacteristics": {
+         "brandName": "Chrome",
+         "deviceOs": "Mac OS X",
+         "mobileBrowserVersion": "150",
+         "resolutionHeight": 800,
+         "mobile": false,
+         "deviceOsVersion": "10.15",
+         "mobileBrowser": "Chrome",
+         "physicalScreenHeight": 175,
+         "modelName": "150",
+         "tablet": false,
+         "resolutionWidth": 1280,
+         "wirelessDevice": false,
+         "physicalScreenWidth": 280
+        },
+        "os": "Mac OS X",
+        "ipAddress": "107.223.153.***",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "requestMadeByBot": true,
+        "coords": {
+         "country": "US",
+         "city": "BILOXI",
+         "latitude": 30.5095,
+         "state": "MS",
+         "longitude": -88.9735
+        }
+       },
+       "sessionId": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "user": {
+        "xVisitorId": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "accountType": "FULL",
+        "guid": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+        "registered": false,
+        "tuid": -1,
+        "userType": "ANONYMOUS",
+        "expUserProfileId": -1,
+        "softAccount": false
+       }
+      },
+      "numChildren": 0,
+      "bookingWindow": 35,
+      "tc_context": {
+       "tcContainerUrl": "https://cdn.tagcommander.com/6035/tc_vrbo_prod.js",
+       "enabled": true
+      },
+      "state": "Miami-Dade County",
+      "starRating": "",
+      "brand": "vrbo",
+      "lobDomain": "HOTEL",
+      "tpid": 9001,
+      "numAdults": 2,
+      "gaUserId": -1,
+      "pageInfo": {
+       "lineOfBusiness": "hotels",
+       "requestURL": "http://www.vrbo.com/graphql",
+       "funnelLocation": "SEARCH_RESULTS",
+       "currency": "USD",
+       "language": "en",
+       "pageName": "page.Hotels.Infosite.Information",
+       "events": "SearchResultsProduct,DatedSearch,SearchResultsHotel",
+       "authInfo": {
+        "rewardsStatus": {
+         "confirmedPoints": 0
+        }
+       },
+       "xLineOfBusiness": "HOTEL"
+      },
+      "membershipTier": "",
+      "numberOfGuests": 2,
+      "tuid": -1,
+      "hotelId": "",
+      "Geo": {
+       "country": "US",
+       "city": "BILOXI",
+       "latitude": 30.5095,
+       "state": "MS",
+       "longitude": -88.9735
+      },
+      "lengthOfStay": 4,
+      "regionId": "",
+      "domain": "HOTEL",
+      "confirmedPoints": 0,
+      "siteId": 9001001,
+      "guid": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+      "currencyCode": "USD",
+      "entity": {
+       "checkout": {
+        "errors": [
+         {
+          "errorCode": "LSSS_SEARCH_FAILURE"
+         }
+        ]
+       }
+      }
+     },
+     "version": "12.0.1",
+     "applicationName": "experience-api-lodging-search"
+    }
+   ],
+   "trace": {
+    "Trace-ID": "6d9fab62-15a5-40af-8a9c-3829dbc34c7e"
+   },
+   "contexts": [
+    {
+     "type": "MarketingTaggingContext",
+     "data": {
+      "context": {
+       "pageIdentity": {
+        "lineOfBusiness": "H",
+        "pageIdentifier": "page.Hotels.Infosite.Information",
+        "funnelLocation": 20
+       },
+       "requestUrl": "https://www.vrbo.com/2165911",
+       "referrerUrl": null
+      },
+      "search": {
+       "searchId": "6d9fab62-15a5-40af-8a9c-3829dbc34c7e",
+       "tripStartDate": "2026-12-04",
+       "tripEndDate": "2026-12-08",
+       "adultCount": 2,
+       "childCount": 0,
+       "infantCount": null,
+       "infantOnLapCount": null,
+       "roomCount": 1,
+       "originAirportCode": null,
+       "destinationAirportCode": null,
+       "originGeoId": null,
+       "destinationGeoId": "2297"
+      },
+      "products": [],
+      "errors": [],
+      "checkout": null,
+      "booking": null
+     }
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,244 @@
+[
+ {
+  "data": {
+   "propertyOffers": {
+    "id": "63066336",
+    "soldOut": true,
+    "errorMessage": {
+     "title": {
+      "text": "This property is not available for your dates on Vrbo. Try new dates to check availability."
+     }
+    },
+    "stickyBar": {
+     "price": null,
+     "propertyPrice": null
+    },
+    "singleUnitOfferDialog": null
+   }
+  },
+  "extensions": {
+   "analytics": [
+    {
+     "traceId": "40670b23-14da-48ad-8389-375f2e781822",
+     "creationTimestamp": 1793362365508,
+     "context": {
+      "pageIdentity": {
+       "lineOfBusiness": "H",
+       "pageIdentifier": "page.Hotels.Infosite.Information.Dated",
+       "funnelLocation": 30
+      },
+      "executeXdid": true,
+      "tealiumAccountDetailsPWA": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "beaconOffConfig": {
+       "settings": {
+        "adobeSuiteAccount": "expediaglobaluserdev",
+        "sendToAdobeClientSide": false,
+        "sendToAdobeServerSide": false,
+        "sendToS3": false,
+        "adobeSuiteUrl": "http://expedia.112.2o7.net/b/ss/expediaglobaluserdev/6"
+       },
+       "rulesMatched": "ALL_BEACON_OFF",
+       "bucketing": {
+        "experimentInstance": "",
+        "bucketValue": 2,
+        "experimentId": ""
+       },
+       "error": ""
+      },
+      "tealiumAccountDetails": {
+       "tealiumAccountName": "TEALIUM_OFF",
+       "tealiumProfileName": "TEALIUM_OFF"
+      },
+      "entryPageView": false,
+      "beaconEnabled": true,
+      "newVisit": false
+     },
+     "tealiumUtagData": {
+      "lineOfBusiness": "hotels",
+      "siteCountryCode": "US",
+      "country": "",
+      "city": "",
+      "tc_vars": {
+       "point_of_sale_eg_pos_id": "VRBO_US",
+       "language": "en",
+       "product_list_lodging_product_refundable": false,
+       "search_request_gaia_id": "2822",
+       "point_of_sale_eg_brand_name": "vrbo",
+       "device_information_device_type": "DESKTOP",
+       "search_request_number_of_children": 0,
+       "timestamps_received_at": "2026-10-30T12:12:45.402213925Z",
+       "error_description": "Hotel has no rooms available.",
+       "host": "www.vrbo.com",
+       "point_of_sale": "Unknown",
+       "is_EU_POS": false,
+       "event_page_name_detailed": "page.Hotels.Infosite.Information.Dated",
+       "default_domain": "www.vrbo.com",
+       "isNativeOneCKO": false,
+       "identifiers_event_trace_id": "40670b2314da48ad8389375f2e781822",
+       "search_request_booking_window": 2,
+       "event_page_funnel_location": "DETAILS",
+       "referrer_url_encoded": "https%3A%2F%2Fwww.vrbo.com%2F2165911",
+       "request_request_url": "http://www.vrbo.com/graphql",
+       "line_of_business": "hotels",
+       "is_native_app_onecheckout": false,
+       "event_page_name": "page.Hotels.Infosite.Information.Dated",
+       "domain": "HOTEL",
+       "marketing_latest_platform_entry_id": "a392d27b-72da-4818-a5d6-58e94bf79543",
+       "search_request_trip_end_date": "2026-11-02",
+       "error_code": "OFFERS_ERROR",
+       "privacy_gdpr_consent": true,
+       "identifiers_session_id": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "marketing_sslt_attributed_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "identifiers_tpid": 9001,
+       "identifiers_site_id": 9001001,
+       "travel_dates": "2026-11-01|2026-11-02",
+       "is_native_app": false,
+       "is_uis_prime_sourced": true,
+       "point_of_sale_site_currency_code": "USD",
+       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+       "privacy_ccpa_consent": true,
+       "identifiers_device_user_agent_id": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+       "marketing_sslt_attributed_platform_entryId": "a392d27b-72da-4818-a5d6-58e94bf79543",
+       "point_of_sale_locale": "US",
+       "booking_product_line": "H",
+       "marketing_same_session_marketing_code": "direct",
+       "marketing_latest_marketing_code": "DIRECT.WEB_NULL_REFERRAL",
+       "event_page_product_line": "HOTEL",
+       "search_request_number_of_adults": 2,
+       "environment": "prod",
+       "search_request_number_of_rooms": 1,
+       "search_request_travel_dates": "20261101|20261102",
+       "search_request_trip_start_date": "2026-11-01",
+       "destination_airport_code": "2822",
+       "referrer_url": "https://www.vrbo.com/2165911"
+      },
+      "siteName": "www.vrbo.com",
+      "language": "en",
+      "numberOfRooms": 1,
+      "roomNights": 1.0,
+      "locale": "en_US",
+      "pageName": "page.Hotels.Infosite.Information.Dated",
+      "checkInDate": "2026-11-01",
+      "xLineOfBusiness": "HOTEL",
+      "eapid": 1,
+      "checkOutDate": "2026-11-02",
+      "funnelLocation": "DETAILS",
+      "context": {
+       "traceId": "40670b2314da48ad8389375f2e781822",
+       "site": {
+        "companyCode": "10140",
+        "tpid": 9001,
+        "eapid": 1,
+        "brandId": "vrbo",
+        "siteId": 9001001,
+        "siteName": "www.vrbo.com",
+        "jurisdictionCode": "USA",
+        "managementUnitCode": "6610",
+        "defaultCountry": "US"
+       },
+       "privacyContext": {
+        "canTrack": true,
+        "canSell": true,
+        "optInPrivacySelection": {
+         "yesSelected": false,
+         "isSet": false
+        },
+        "dataProtectionGuideline": "GDPR"
+       },
+       "requestId": "40670b23-14da-48ad-8389-375f2e781822",
+       "hopScotchSessionId": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "clientInfo": {
+        "deviceCharacteristics": {
+         "brandName": "Chrome",
+         "deviceOs": "Mac OS X",
+         "mobileBrowserVersion": "150",
+         "resolutionHeight": 800,
+         "mobile": false,
+         "deviceOsVersion": "10.15",
+         "mobileBrowser": "Chrome",
+         "physicalScreenHeight": 175,
+         "modelName": "150",
+         "tablet": false,
+         "resolutionWidth": 1280,
+         "wirelessDevice": false,
+         "physicalScreenWidth": 280
+        },
+        "os": "Mac OS X",
+        "ipAddress": "107.223.153.***",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+        "requestMadeByBot": true,
+        "coords": {
+         "country": "US",
+         "city": "BILOXI",
+         "latitude": 30.5095,
+         "state": "MS",
+         "longitude": -88.9735
+        }
+       },
+       "sessionId": "44cad5c4-ef82-3f40-b2c8-d2a346a2376f",
+       "user": {
+        "guid": "b0bc6701-7f9a-fd24-3553-525c300e6850"
+       }
+      },
+      "numChildren": 0,
+      "bookingWindow": 2,
+      "tc_context": {
+       "tcContainerUrl": "https://cdn.tagcommander.com/6035/tc_vrbo_prod.js",
+       "enabled": true
+      },
+      "state": "",
+      "brand": "vrbo",
+      "lobDomain": "HOTEL",
+      "tpid": 9001,
+      "numAdults": 2,
+      "pageInfo": {
+       "lineOfBusiness": "hotels",
+       "requestURL": "http://www.vrbo.com/graphql",
+       "funnelLocation": "DETAILS",
+       "currency": "USD",
+       "language": "en",
+       "pageName": "page.Hotels.Infosite.Information.Dated",
+       "events": "HotelABSCallFailure,DatedSearch,InventoryNoAvailable,VacationRentalProductView,HotelABSNoCallMade,NoCCEnabledHotelInfositeView,ProductView",
+       "xLineOfBusiness": "HOTEL"
+      },
+      "membershipTier": "",
+      "numberOfGuests": 2,
+      "Geo": {
+       "country": "US",
+       "city": "BILOXI",
+       "latitude": 30.5095,
+       "state": "MS",
+       "longitude": -88.9735
+      },
+      "lengthOfStay": 1.0,
+      "regionId": "",
+      "domain": "HOTEL",
+      "confirmedPoints": "",
+      "siteId": 9001001,
+      "guid": "b0bc6701-7f9a-fd24-3553-525c300e6850",
+      "currencyCode": "USD",
+      "entity": {
+       "checkout": {
+        "errors": [
+         {
+          "eventDescription": "Hotel has no rooms available.",
+          "errorCode": "OFFERS_ERROR"
+         }
+        ]
+       }
+      }
+     },
+     "version": "12.0.1",
+     "applicationName": "experience-api-lodging-offers"
+    }
+   ],
+   "trace": {
+    "Trace-ID": "40670b23-14da-48ad-8389-375f2e781822"
+   }
+  }
+ }
+]

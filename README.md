@@ -134,6 +134,7 @@ You're a developer — we know how hard completing a project can be. So we offer
 - [**Booking Scraper**](https://www.omkar.cloud/tools/booking-scraper) — Booking.com hotels: prices, ratings, rooms & amenities
 - [**Agoda Scraper**](https://github.com/omkarcloud/agoda-scraper) — Agoda hotels: live prices, every room & rate plan, guest scores & reviews
 - [**Etsy Scraper**](https://www.omkar.cloud/tools/etsy-scraper) — Etsy products: prices, discounts, shops & variations
+- [**Hotels Com Scraper**](https://github.com/omkarcloud/hotels-com-scraper) — Hotels.com hotels: live prices, every room & rate, reviews and daily price calendars
 
 ## ⭐ Love It? [Star It ⭐!](https://github.com/omkarcloud/vrbo-scraper)
 

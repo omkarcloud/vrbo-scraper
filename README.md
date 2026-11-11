@@ -132,6 +132,7 @@ You're a developer — we know how hard completing a project can be. So we offer
 - [**Website Email Contact Scraper**](https://www.omkar.cloud/tools/website-email-contact-scraper) — emails, phones & socials from any website
 - [**AliExpress Scraper**](https://www.omkar.cloud/tools/aliexpress-scraper-api) — live product details, SKU variants, stock & shipping
 - [**Booking Scraper**](https://www.omkar.cloud/tools/booking-scraper) — Booking.com hotels: prices, ratings, rooms & amenities
+- [**Agoda Scraper**](https://github.com/omkarcloud/agoda-scraper) — Agoda hotels: live prices, every room & rate plan, guest scores & reviews
 - [**Etsy Scraper**](https://www.omkar.cloud/tools/etsy-scraper) — Etsy products: prices, discounts, shops & variations
 
 ## ⭐ Love It? [Star It ⭐!](https://github.com/omkarcloud/vrbo-scraper)

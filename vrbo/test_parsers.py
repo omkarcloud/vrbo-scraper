@@ -399,30 +399,24 @@ def test_card_generic_heading_variant():
 
 
 def test_block_alternates_fingerprint_before_the_fallback(monkeypatch):
-    """A block moves the thread to the next impersonation target; the
-    residential fallback starts only after every target was refused on the
-    direct tier."""
+    """A block moves the NEXT mint (process-wide: sessions are pooled across
+    threads) to the next impersonation target; the residential fallback
+    starts only after every target was refused on the direct tier."""
+    from types import SimpleNamespace
     from vrbo import fetch
-
-    class FakeSession:
-        def __init__(self, proxy=None):
-            self.vrbo_proxy = proxy
-
-        def close(self):
-            pass
 
     monkeypatch.setattr(fetch.config, "vrbo_proxy", lambda: None)
     monkeypatch.setattr(fetch.config, "VRBO_BLOCK_COOLDOWN", 600)
     monkeypatch.setattr(fetch, "_fallback_until", 0.0)
-    fetch._local.target_index = 0
-    fetch._local.session = FakeSession()
-    fetch._drop_session(blocked=True)
-    assert fetch._local.target_index == 1 and fetch._fallback_until == 0.0
-    fetch._local.session = FakeSession()
-    fetch._drop_session(blocked=True)
-    assert fetch._local.target_index == 2 and fetch._fallback_until > 0
-    fetch._local.target_index = 0
-    fetch._local.session = None
+    monkeypatch.setattr(fetch, "_target_index", 0)
+    monkeypatch.setattr(fetch, "_direct_refusals", 0)
+    fetch._note_block(SimpleNamespace(vrbo_proxy=None))
+    assert fetch._target_index == 1 and fetch._fallback_until == 0.0
+    # a block on the fallback tier rotates the fingerprint but does not count towards the cooldown
+    fetch._note_block(SimpleNamespace(vrbo_proxy="http://fallback"))
+    assert fetch._target_index == 2 and fetch._fallback_until == 0.0
+    fetch._note_block(SimpleNamespace(vrbo_proxy=None))
+    assert fetch._target_index == 3 and fetch._fallback_until > 0
 
 
 def test_card_review_count_from_accessibility_or_subtexts():

@@ -51,6 +51,16 @@ Egress (config.VRBO_EXIT, pod probe 2026-10-31 in config.py): the pod's
 own IP passes all four surfaces; after a block new sessions ride a US
 residential exit for config.VRBO_BLOCK_COOLDOWN seconds.
 
+Sessions live in a process-wide identity_pool.Pool in exclusive mode (since
+2026-11-09): a request borrows one for ONE call and hands it back, so the
+next request on any of the pod's 64 threads reuses its homepage warm-up
+(before, each thread kept a session and warmed it per thread). A block or
+transport failure marks the session dead (retired on give-back); a session
+is also retired after VRBO_SESSION_USES calls or VRBO_SESSION_MAX_AGE
+seconds. The fingerprint ladder (target index, direct-tier refusals) is
+process-wide too: a mint runs on whichever thread borrows, so a blocked
+thread's "next fingerprint" must apply to the next mint anywhere.
+
 Failure taxonomy (scraper_errors, mapped to HTTP by route_glue):
   VrboUpstreamError   transport failure / 5xx / malformed payload  — retryable
   VrboBlocked         401/403/429 or the "Bot or Not?" page          — retryable
@@ -70,8 +80,10 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import config
 import egress
+import identity_pool
 from scraper_errors import BadRequest, Blocked, NotFound, UpstreamError
 from vrbo.refs import LISTING_ID_RE, SITE
+from scraper_utils.pages import page_title
 
 # curl_cffi impersonation targets, in the order a thread tries them: a block
 # drops the session and its replacement rides the next one. Pod probe
@@ -131,16 +143,19 @@ class VrboNotFound(NotFound):
     """The listing does not exist — never retried."""
 
 
-# ---- sessions ----------------------------------------------------------------
-# One session per cheroot worker thread: a curl handle must not be shared
-# across threads. The session keeps its cookie jar (the GraphQL endpoint
-# needs one page load's cookies) and its sticky exit for its lifetime; a
-# retryable failure drops it so the retry rides a fresh exit.
-_local = threading.local()
-# Process-wide: after a block on the direct tier every new session rides the
-# residential fallback (config.vrbo_fallback_proxy()) until this instant.
+# ---- pooled sessions ---------------------------------------------------------
+# A session keeps its cookie jar (the GraphQL endpoint needs one page load's
+# cookies) and its sticky exit for its lifetime. It owns ONE curl handle, so
+# the pool lends it to one request at a time; a retryable failure marks it
+# dead so the retry rides a fresh exit.
+# Process-wide ladder (under _fallback_lock): after a block on the direct tier
+# every new session rides the residential fallback (config.vrbo_fallback_proxy())
+# until _fallback_until; _target_index picks the fingerprint of the next mint;
+# _direct_refusals counts direct-tier blocks towards the fallback.
 _fallback_until = 0.0
 _fallback_lock = threading.Lock()
+_target_index = 0
+_direct_refusals = 0
 
 
 def _proxy():
@@ -150,53 +165,91 @@ def _proxy():
     return proxy
 
 
-def _session():
-    sess = getattr(_local, "session", None)
-    if sess is None:
+class _Session(identity_pool.Identity):
+    """One curl session on one exit with one fingerprint; `vrbo_warm` says
+    the homepage was loaded (its cookies are in the jar), `vrbo_proxy` is
+    the exit (None = the pod's own IP, the direct tier)."""
+
+    def __init__(self, proxy, target=IMPERSONATE):
         from curl_cffi import requests as curl_requests
-        proxy = _proxy()
-        target = IMPERSONATE_TARGETS[getattr(_local, "target_index", 0) % len(IMPERSONATE_TARGETS)]
-        sess = curl_requests.Session(impersonate=target)
+        super().__init__(exit=proxy)
+        self.curl = curl_requests.Session(impersonate=target, use_thread_local_curl=False)
         if proxy:
-            sess.proxies = {"http": proxy, "https": proxy}
-        sess.headers["accept-language"] = egress.accept_language(proxy)
-        sess.vrbo_warm = False
-        sess.vrbo_proxy = proxy
-        _local.session = sess
-    return sess
+            self.curl.proxies = {"http": proxy, "https": proxy}
+        self.curl.headers["accept-language"] = egress.accept_language(proxy)
+        self.vrbo_warm = False
+        self.vrbo_proxy = proxy
+        self.target = target
+        self.closed = False
 
-
-def _drop_session(blocked=False):
-    """Close the thread's session so the retry rides a fresh exit. A block
-    moves the thread to the next fingerprint; once every fingerprint has
-    been refused on the direct tier, new sessions ride the residential
-    fallback for VRBO_BLOCK_COOLDOWN seconds (a single refused fingerprint
-    is not enough: on 2026-11-02 the pod IP refused one and passed the other,
-    while most residential exits refused both)."""
-    global _fallback_until
-    sess = getattr(_local, "session", None)
-    _local.session = None
-    was_direct = sess is not None and getattr(sess, "vrbo_proxy", None) is None
-    if sess is not None:
+    def close(self):
+        if self.closed:
+            return
+        self.closed = True
         try:
-            sess.close()
+            self.curl.close()
         except Exception:
             pass
-    if not blocked:
-        return
-    _local.target_index = getattr(_local, "target_index", 0) + 1
-    every_fingerprint_refused = _local.target_index % len(IMPERSONATE_TARGETS) == 0
-    if (was_direct and every_fingerprint_refused and config.vrbo_proxy() is None
-            and config.VRBO_BLOCK_COOLDOWN):
-        with _fallback_lock:
+
+
+def _mint(key, hint=None):
+    """The pool's mint: a cold session on the tier of the moment with the
+    ladder's current fingerprint (warmed by its first GraphQL call)."""
+    with _fallback_lock:
+        target = IMPERSONATE_TARGETS[_target_index % len(IMPERSONATE_TARGETS)]
+    return _Session(_proxy(), target)
+
+
+_sessions = identity_pool.Pool(
+    "vrbo", _mint, mode="exclusive",
+    budget=lambda: config.VRBO_SESSION_USES,
+    max_age=lambda: config.VRBO_SESSION_MAX_AGE,
+    on_retire=lambda ident, reason: ident.close())
+
+
+def _note_block(sess):
+    """A block on `sess` moves the next mint to the next fingerprint; once
+    every fingerprint has been refused on the direct tier, new sessions ride
+    the residential fallback for VRBO_BLOCK_COOLDOWN seconds (a single
+    refused fingerprint is not enough: on 2026-11-02 the pod IP refused one
+    and passed the other, while most residential exits refused both)."""
+    global _fallback_until, _target_index, _direct_refusals
+    with _fallback_lock:
+        _target_index += 1
+        if sess.vrbo_proxy is not None:
+            return
+        # counted apart from _target_index, which a block on the fallback tier
+        # also advances: only direct-tier refusals decide when the fallback starts
+        _direct_refusals += 1
+        every_fingerprint_refused = _direct_refusals % len(IMPERSONATE_TARGETS) == 0
+        if every_fingerprint_refused and config.vrbo_proxy() is None and config.VRBO_BLOCK_COOLDOWN:
             _fallback_until = max(_fallback_until, time.time() + config.VRBO_BLOCK_COOLDOWN)
+
+
+def _on_session(fn):
+    """fn(sess) on a borrowed session. A block or any other retryable
+    failure marks it dead (retired on give-back, so the retry rides a fresh
+    exit); a block also advances the fingerprint / fallback ladder."""
+    sess = _sessions.borrow()
+    try:
+        return fn(sess)
+    except VrboBlocked:
+        _note_block(sess)
+        sess.dead = True
+        raise
+    except VrboUpstreamError:
+        sess.dead = True
+        raise
+    finally:
+        _sessions.give_back(sess)
 
 
 def _retrying(fn):
     """Run fn() under the retry policy: a block gets config.VRBO_EXIT_ATTEMPTS
     tries on fresh exits with no backoff (the cure is the exit, not time),
     any other upstream failure config.MAX_RETRIES with backoff; NotFound /
-    BadRequest surface immediately."""
+    BadRequest surface immediately. The failed call already retired its
+    session (_on_session)."""
     last = None
     attempts = max(config.VRBO_EXIT_ATTEMPTS, config.MAX_RETRIES)
     plain_failures = 0
@@ -205,22 +258,15 @@ def _retrying(fn):
             return fn()
         except VrboBlocked as e:
             last = e
-            _drop_session(blocked=True)
             if attempt < attempts:
                 time.sleep(BLOCK_RETRY_PAUSE)
         except VrboUpstreamError as e:
             last = e
             plain_failures += 1
-            _drop_session()
             if plain_failures >= config.MAX_RETRIES:
                 break
             time.sleep(config.RETRY_BACKOFF * plain_failures)
     raise last
-
-
-def page_title(text):
-    match = _TITLE_RE.search(text or "")
-    return match.group(1).strip() if match else ""
 
 
 def is_challenge(text):
@@ -242,10 +288,9 @@ def _classify(resp, label):
     return resp.text
 
 
-def _get(path, label, headers, timeout):
-    sess = _session()
+def _get(sess, path, label, headers, timeout):
     try:
-        resp = sess.get(SITE + path, headers=headers, timeout=timeout, allow_redirects=True)
+        resp = sess.curl.get(SITE + path, headers=headers, timeout=timeout, allow_redirects=True)
     except Exception as e:
         raise VrboUpstreamError(f"request failed: {type(e).__name__}: {e}")
     return resp, _classify(resp, label)
@@ -257,7 +302,7 @@ def _warm(sess):
     if getattr(sess, "vrbo_warm", False):
         return
     try:
-        resp = sess.get(SITE + "/", headers=PAGE_HEADERS, timeout=PAGE_TIMEOUT)
+        resp = sess.curl.get(SITE + "/", headers=PAGE_HEADERS, timeout=PAGE_TIMEOUT)
     except Exception as e:
         raise VrboUpstreamError(f"warm-up failed: {type(e).__name__}: {e}")
     _classify(resp, "homepage")
@@ -265,7 +310,7 @@ def _warm(sess):
 
 
 def _duaid(sess):
-    return sess.cookies.get("DUAID") or str(uuid.uuid4())
+    return sess.curl.cookies.get("DUAID") or str(uuid.uuid4())
 
 
 def _context(sess):
@@ -284,14 +329,13 @@ _NOT_FOUND_MARKERS = ("Invalid PropertyId", "Invalid parameter [parameterName=pr
 def _graphql(operation, query, variables, page_id, referer):
     """POST one operation; returns its `data`. GraphQL errors naming the
     property id are NotFound, others upstream failures."""
-    def once():
-        sess = _session()
+    def once(sess):
         _warm(sess)
         variables["context"] = _context(sess)
         body = [{"operationName": operation, "variables": variables, "query": query}]
         headers = dict(GRAPHQL_HEADERS, **{"x-page-id": page_id, "referer": referer})
         try:
-            resp = sess.post(SITE + "/graphql", json=body, headers=headers, timeout=GRAPHQL_TIMEOUT)
+            resp = sess.curl.post(SITE + "/graphql", json=body, headers=headers, timeout=GRAPHQL_TIMEOUT)
         except Exception as e:
             raise VrboUpstreamError(f"request failed: {type(e).__name__}: {e}")
         text = _classify(resp, operation)
@@ -312,7 +356,7 @@ def _graphql(operation, query, variables, page_id, referer):
             if not data or all(v is None for v in data.values()):
                 raise VrboUpstreamError(f"{operation}: {messages[:300]}")
         return data
-    return _retrying(once)
+    return _retrying(lambda: _on_session(once))
 
 
 # ---- property page ----------------------------------------------------------------
@@ -336,11 +380,11 @@ def _candidate_paths(ref):
 def fetch_property_page(ref):
     """GET the bare listing page for a listing id / Expedia id; returns
     (html, listing_id). Unknown ids 302 to the homepage -> VrboNotFound."""
-    def once():
+    def once(sess):
         paths = _candidate_paths(ref)
         for index, path in enumerate(paths):
             try:
-                resp, text = _get(path, f"property {ref}", PAGE_HEADERS, PAGE_TIMEOUT)
+                resp, text = _get(sess, path, f"property {ref}", PAGE_HEADERS, PAGE_TIMEOUT)
             except VrboNotFound:
                 if index == len(paths) - 1:
                     raise
@@ -353,7 +397,7 @@ def fetch_property_page(ref):
                 raise VrboUpstreamError(f"property {ref}: page without server-rendered state")
             return text, match.group(1).lower()
         raise VrboNotFound(f"property {ref} not found")
-    return _retrying(once)
+    return _retrying(lambda: _on_session(once))
 
 
 # ---- typeahead ----------------------------------------------------------------------
@@ -366,8 +410,8 @@ def fetch_autocomplete(query, limit=10):
               "maxresults": limit, "format": "json", "regiontype": 2047}
     path = f"/api/v4/typeahead/{quote(query, safe='')}?{urlencode(params)}"
 
-    def once():
-        resp, text = _get(path, "typeahead", {"accept": "application/json, text/plain, */*"}, TYPEAHEAD_TIMEOUT)
+    def once(sess):
+        resp, text = _get(sess, path, "typeahead", {"accept": "application/json, text/plain, */*"}, TYPEAHEAD_TIMEOUT)
         try:
             payload = resp.json()
         except Exception:
@@ -375,7 +419,7 @@ def fetch_autocomplete(query, limit=10):
         if not isinstance(payload, dict):
             raise VrboUpstreamError(f"unexpected typeahead payload: {text[:120]}")
         return payload
-    return _retrying(once)
+    return _retrying(lambda: _on_session(once))
 
 
 # ---- search ---------------------------------------------------------------------------
@@ -470,12 +514,12 @@ def fetch_search_page(destination, checkin=None, checkout=None, adults=2):
     """GET the server-rendered search page (filters + sort vocabulary)."""
     path = search_page_path(destination, checkin, checkout, adults)
 
-    def once():
-        _, text = _get(path, "search page", PAGE_HEADERS, PAGE_TIMEOUT)
+    def once(sess):
+        _, text = _get(sess, path, "search page", PAGE_HEADERS, PAGE_TIMEOUT)
         if "__APOLLO_STATE__" not in text:
             raise VrboUpstreamError("search page without server-rendered state")
         return text
-    return _retrying(once)
+    return _retrying(lambda: _on_session(once))
 
 
 # ---- reviews ------------------------------------------------------------------------------

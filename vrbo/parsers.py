@@ -29,6 +29,7 @@ unescapes it. Entities are keyed "<Type>:<id>" and referenced as
 "<field>(<args json>)" or "<field>:<args json>".
 """
 import json
+import fastjson
 import math
 import re
 from datetime import datetime
@@ -88,7 +89,7 @@ def apollo_state(html):
     if not match:
         return None
     try:
-        return json.loads(json.loads('"' + match.group(1) + '"'))
+        return fastjson.loads(fastjson.loads('"' + match.group(1) + '"'))
     except ValueError:
         return None
 
@@ -888,7 +889,7 @@ def _nearby(info):
 def _seo(state):
     headline = _first_root(state, "productHeadline") or {}
     try:
-        return json.loads(headline.get("seoStructuredData") or "{}") or {}
+        return fastjson.loads(headline.get("seoStructuredData") or "{}") or {}
     except ValueError:
         return {}
 

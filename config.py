@@ -42,3 +42,8 @@ def vrbo_fallback_proxy():
     """The exit used after both fingerprints are refused (None = keep the
     same connection)."""
     return os.environ.get("VRBO_PROXY") or None
+
+
+# ---- added by the sync: defaults for a direct run ----
+VRBO_SESSION_MAX_AGE = 1800
+VRBO_SESSION_USES = 40
